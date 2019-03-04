@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f18b70ac-d6fc-4f5a-8c94-cc9bd3a1f8f9}"
+       Name="AllActorsSign"
+       DisplayName="All Actors Sign"
+       StaticName="AllActorsSign"
+       Type="Note"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       NumLines="6"
+       RichText="FALSE"
+       Sortable="FALSE"
+       Group="RS Columns"
+       SourceID="{dec8b2e4-e54f-485a-a24a-f5af2227497c}">
+  </Field>
+</Elements>

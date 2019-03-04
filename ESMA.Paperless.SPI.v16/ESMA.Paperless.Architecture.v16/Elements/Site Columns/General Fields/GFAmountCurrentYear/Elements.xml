@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{67138afc-afae-4eab-b12f-cb35454a86e1}"
+       Name="GFAmountCurrentYear"
+       DisplayName="Amount Current Year"
+       Type="Text"
+       Required="FALSE"
+       Group="RS Columns">
+  </Field>
+</Elements>

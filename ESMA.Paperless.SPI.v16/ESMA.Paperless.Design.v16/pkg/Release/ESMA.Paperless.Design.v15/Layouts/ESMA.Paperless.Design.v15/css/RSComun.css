@@ -1,0 +1,162 @@
+#sideNavBox {
+	display: none;
+}
+
+#siteIcon {
+	display: none;
+}
+
+#contentBox {
+	margin-left: 20px;
+}
+
+/* Hide the left Suite Bar and ribbon areas */
+.ms-core-brandingText {
+    display: none;
+}
+
+#DeltaSuiteLinks {
+    display: none;
+}
+ #suiteBarLeft {
+    /*display: none;*/
+}
+ 
+ #s4-ribbonrow {
+	/*display: none;*/
+}
+
+#suiteBar {
+    /*float: right;
+    width: auto;*/
+}
+
+h1#pageTitle{ /*CSS to hide the title of sharepoint*/
+	display: none;	
+}
+
+h3{
+	color:#004494;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+/* Banner */
+
+.banner-paperless{
+	background:#022a58;
+	height: 35px;
+	margin-top: 0px;
+}
+
+.ms-core-overlay{
+	background: transparent;
+}
+
+.banner-paperless a{
+	float: left;
+}
+
+.banner-paperless img{
+	padding-left: 1em;
+	float: left;
+}
+
+.banner-paperless span{
+	color:#FFF;
+	font-size: 17px;
+	text-transform: uppercase;
+	float: left;
+	display: block;
+	padding-top: 5.4px;
+    padding-left: 0.5em;
+}
+
+/* Menu */
+#s4-titlerow{
+	background: #004494;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+
+#s4-titlerow a{
+	color: #FFF;
+    font-size: 15px;
+    padding-top: 13px;
+    font-weight: 600;
+}
+
+#s4-titlerow a:hover{
+	text-decoration: underline!important;
+}
+
+#titleAreaRow .ms-helperText, input.ms-helperText{
+	color:#FFF;
+}
+
+#titleAreaRow #SearchBox{
+	display: none;
+}
+
+.ms-core-listMenu-horizontalBox ul{
+	height:50px;
+}
+
+/* Footer */
+footer{
+    height: 50px;
+	background: #004494;
+}
+
+footer ul{
+	list-style: none;
+	float: right;
+	margin-right: 30px;
+}
+
+footer ul li{
+	color:#FFF;
+	float: left;
+}
+
+footer ul li a{
+ 	color:#FFF!important;
+ 	padding:1em 1em 0em 1em ;
+}
+
+/* Grids */
+.grid-workflow{
+	margin-top: 1em;
+}
+
+.grid-workflow table .ms-viewheadertr th{
+	padding-left: 5px!important;
+}
+
+.grid-workflow table .ms-viewheadertr th a{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.grid-workflow table .ms-viewheadertr{
+	border-bottom: 1px solid #CCC;
+}
+
+.grid-workflow table tbody td{
+	padding: 0px!important
+}
+
+.grid-workflow .ms-vb2 {
+    padding: 8px 8px 8px 5px!important;
+}
+
+/* table tabs*/
+
+#ViewMain table{
+	width: 100%;
+}
+
+.fourth_row_col1 .ms-WPBody table{
+	width: 100%!important;
+}

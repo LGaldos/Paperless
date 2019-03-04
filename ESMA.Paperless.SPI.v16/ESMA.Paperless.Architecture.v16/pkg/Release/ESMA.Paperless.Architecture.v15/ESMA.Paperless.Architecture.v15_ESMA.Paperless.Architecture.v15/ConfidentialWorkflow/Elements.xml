@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{16cbce84-7dcc-4676-89c2-39c53cbc954e}"
+       Name="ConfidentialWorkflow"
+       DisplayName="Confidential Workflow"
+       StaticName="ConfidentialWorkflow"
+       Type="Choice"
+       Required="TRUE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Format="Dropdown"
+       FillInChoice="FALSE"
+       Group="RS Columns"
+       SourceID="{2ddd1d3e-5e1c-4b8b-991a-3897943e2576}">
+    <Default>Non Confidential</Default>
+    <CHOICES>
+      <CHOICE>Non Confidential</CHOICE>
+      <CHOICE>Confidential</CHOICE>
+      <CHOICE>Confidential until closed</CHOICE>
+      <CHOICE>Group Confidential</CHOICE>
+    </CHOICES> 
+  </Field>
+</Elements>

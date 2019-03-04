@@ -1,0 +1,889 @@
+/* Hide Edit Links */
+#DeltaTopNavigation .ms-navedit-editArea {
+	display: none;
+}
+
+#sideNavBox {
+	display: none;
+}
+
+#siteIcon {
+	display: none;
+}
+
+#contentBox {
+	margin-left: 20px;
+}
+
+/* Hide the left Suite Bar and ribbon areas */
+.ms-core-brandingText {
+    display: none;
+}
+
+#DeltaSuiteLinks {
+    display: none;
+}
+ #suiteBarLeft {
+    /*display: none;*/
+}
+
+ #s4-ribbonrow {
+	/*display: none;*/
+}
+
+/*
+#suiteBar {
+    float: right;
+    width: auto;
+}
+*/
+
+h1#pageTitle{ /*CSS to hide the title of sharepoint*/
+    display: none;
+}
+
+/* h1 */
+h1:not(#pageTitle) {
+    color: #004494;
+    padding-top: 0em;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+/* h2 */
+h2 {
+    clear: both;
+    color: #004494;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 2rem;
+    padding-top: 0em;
+}
+
+h2.data-for-report-title{
+    margin-top:2rem;
+}
+
+/* h3 */
+h3 {
+    color:#004494;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* Banner */
+.banner-paperless {
+	background:#022a58;
+	height: 35px;
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+
+.ms-core-overlay{
+	background: transparent;
+}
+
+.banner-paperless a{
+	float: left;
+}
+
+.banner-paperless img{
+	padding-left: 1em;
+	float: left;
+}
+
+.banner-paperless span{
+	color:#FFF;
+	font-size: 17px;
+	text-transform: uppercase;
+	float: left;
+	display: block;
+	padding-top: 5.4px;
+    padding-left: 0.5em;
+}
+
+/* Menu */
+#s4-titlerow {
+	background: #004494;
+	//height: 50px;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+}
+
+#s4-titlerow a {
+	border-left: 1px solid #1a579f;
+	color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding: 13px 15px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+#s4-titlerow a:hover {
+	background: rgba(255, 255, 255, .25);
+	border-bottom: 10px solid #004494;
+}
+
+#s4-titlerow a.selected {
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+
+#titleAreaRow .ms-helperText, input.ms-helperText{
+	color:#FFF;
+}
+
+#titleAreaRow #SearchBox{
+	display: none;
+}
+
+.ms-core-listMenu-horizontalBox ul{
+	height:50px;
+}
+
+/* Footer */
+footer{
+    height: 50px;
+	background: #004494;
+}
+
+footer ul{
+	list-style: none;
+	float: right;
+	margin-right: 30px;
+}
+
+footer ul li{
+	color:#FFF;
+	float: left;
+}
+
+footer ul li a{
+ 	color:#FFF!important;
+ 	padding:1em 1em 0em 1em ;
+}
+
+/* Grids */
+.grid-workflow{
+	margin-top: 1em;
+}
+
+.grid-workflow table .ms-viewheadertr th{
+	padding-left: 5px!important;
+}
+
+.grid-workflow table .ms-viewheadertr th a{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.grid-workflow table .ms-viewheadertr{
+	border-bottom: 1px solid #CCC;
+}
+
+.grid-workflow table tbody td{
+	padding: 0px!important
+}
+
+.grid-workflow .ms-vb2 {
+    padding: 8px 8px 8px 5px!important;
+}
+
+/* table tabs*/
+
+#ViewMain table{
+	width: 100%;
+}
+
+.fourth_row_col1 .ms-WPBody table{
+	width: 100%!important;
+}
+
+
+/* =========== */
+/* FORMULARIOS */
+/* =========== */
+
+.row_style {
+    width: 100%;
+    float: left;
+    vertical-align: middle;
+    margin-bottom: 0.5em;
+}
+
+.row_style > div {
+    display: table;
+    float: left;
+    vertical-align: middle!important;
+}
+
+#criteria, .panel__reportDetails {
+    //overflow: hidden;
+    font-family: Verdana, sans-serif !important;
+}
+
+/* Inputs general */
+.input_text {
+	border: 1px solid #a3a3a3 !important;
+    color: #696969 !important;
+    font-size: 90% !important;
+	font-size:1em!important;
+    height: 17px !important;
+    /*
+    margin-bottom: 0.5em;
+    margin-right: 0em;
+    margin-top: 0.5em;
+    margin: 0 auto;
+    */
+}
+
+.input_select {
+	border: 1px solid #a3a3a3 !important;
+    color: #696969 !important;
+    font-size: 90% !important;
+    height: 21px !important;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+	font-size:1em!important;
+}
+
+/* Labels */
+.label_column, .label_column1, .label_column2 {
+    margin: 0!important;
+    padding-top: 14px;
+    width: 20%;
+}
+
+.input_column, .input_column1 {
+    width: 80%;
+}
+
+.chosen-container-single .chosen-single {
+    border: 1px solid #a3a3a3 !important;
+    padding: 5px 0 5px 10px !important;
+    height: inherit !important;
+}
+
+.chosen-container {
+    width: 282px !important;
+    margin-top: 0.2em !important;
+    margin-bottom: 0.2em !important;
+}
+
+.chosen-container .chosen-drop {
+    width: inherit !important;
+    margin-left: 5px !important;
+}
+
+.confidential .chosen-container .chosen-drop {
+    margin-left: 0!important;
+}
+
+#criteria .chosen-container {
+    width: 412px !important;
+}
+
+#criteria .chosen-container .chosen-drop {
+    width: inherit !important;
+    margin-left: 0px !important;
+}
+
+/* Fechas */
+.label_span_date {
+	//width:6%;
+	padding-top: 8px;
+}
+
+.input_column1_date {
+    width: 80%;
+}
+
+.input_column1_date > div {
+	float: left;
+}
+
+.input__fecha {
+	//width: 20em;
+}
+
+div.input_column1_date > div:nth-child(2) {
+	margin-right: 1em;
+}
+
+.ms-dtinput, .ms-dttimeinput {
+    //vertical-align: bottom;
+    //padding: 0px 4px 0px 0px;
+    vertical-align: middle;
+}
+
+/* Inputs */
+#criteria .input_text, #cright .input_text_template, #cright input[type=text] {
+	font-size: 1em !important;
+    padding: 8px 10px;
+    width: 30em !important;
+}
+
+
+#criteria .input_column1_date .input_text, #cright input[type=text]:not(.input_text_template) {
+	margin: 0;
+    width: 8.8em !important;
+}
+
+/* Viñeta */
+.chosen-container-single .chosen-single div b {
+    background-position-y: 6px !important;
+}
+
+/* Checkbox */
+input[type="checkbox" i] {
+    margin: 3px 3px 3px 4px;
+}
+
+/* Aviso */
+#criteria .row_style:last-child span {
+    background: #fcf8e3;
+    border: 1px solid #faf2cc;
+    border-radius: .25rem;
+    color: #8a6d3b;
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+/* Botones */
+.col_buttons {
+    clear: both;
+    //min-width: 400px;
+    min-width: 1px;
+	padding-top: 1.1em;
+    padding-bottom: 1.1em;
+    text-align: left;
+    width: 100%;
+}
+
+input.btn_grey, input.btn_blue {
+	background: #103957;
+    border: 0px solid #103957!important;
+    border-radius: 5px;
+    color: #FFF!important;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+	margin-left: 0!important;
+    padding: 7px 10px!important;
+    transition: all 0.25s ease-in-out;
+}
+
+.col_buttons input.btn_grey:not(:first-child) {
+	margin-left: 1.5em!important;
+}
+
+input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, button:hover {
+    border-color: #92c0e0;
+    background: rgba(16, 57, 87, .85);
+	color: white;
+}
+
+/* Resultados */
+.row_result {
+	color:#3f3f3f;
+	font-size:1.0em;
+    font-weight: bold;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+
+/* Tablas y Grids */
+.result_grid {
+	border-style: none!important;
+    box-sizing: border-box;
+    color: #3f3f3f!important;
+    font-size: 1em!important;
+    overflow: auto;
+    width: 100%;
+}
+
+.result_grid.templates_results {
+    float: left;
+    width: 45%;
+	margin-top: 0rem;
+}
+
+.result_grid table, .result_grid div, .result_grid div table tbody {
+   border-style:none!important;
+   border-bottom-width:0px!important;
+}
+
+/* Contenedor Edit */
+.container__edit--results {
+    clear: both;
+}
+
+.grid-workflow table, #results table {
+	width: 100% !important;
+}
+
+.grid-workflow table tr.pager table, #results table tr.pager table {
+    float: right;
+    width: auto!important;
+}
+tr.pager > td {
+    //background: #dcebff;
+    text-align: right !important;
+}
+
+#results {
+    margin-top: 3rem;
+}
+
+.result_grid tr.header_background {
+    border-bottom: 1px solid #CCC !important;
+}
+
+.result_grid tr {
+	border: 0;
+}
+
+.result_grid_even {
+	background-color: #eee;
+    border-style: none !important;
+    text-decoration: none !important;
+}
+
+
+.result_grid th {
+    border: 0 !important;
+    border-style: solid!important;
+    border-bottom-width: 0px!important;
+    color: #003759;
+    font-size: 14px;
+    padding: 5px;
+    text-align: left;
+    width: auto !important;
+}
+
+.result_grid th a {
+	color: inherit;
+}
+
+.header_background {
+	//background:  url("/_layouts/15/ESMA.Paperless.Design.v16/images/RSTabBackground.png");
+	border-bottom:1px solid #a3a3a3 ! important;
+    color: #5CAFCD;
+    font-size: 1em;
+    font-weight: bold;
+    height: 18px;
+	margin-bottom:0.5em;
+	padding-left:0.6em;
+	padding-top:0.6em;
+	text-align: left;
+}
+
+.grid-workflow table tbody td, .result_grid td {
+	border: 0;
+    padding: 8px 8px 8px 5px !important;
+    text-align: left !important;
+}
+
+/* DETALLE INFORME */
+.panel__reportDetails {
+    float: right;
+	margin-top: 4em;
+    width: 45%;
+}
+
+.report__template--title {
+    color: #999;
+    font-size: 1.5em;
+    margin: 0em auto 1em auto;
+}
+
+/* Label */
+.label__detail {
+	width: 20%;
+}
+
+.margen--medio {
+	margin-bottom: 1em;
+}
+
+.panel__reportDetails .input_column {
+	font-weight: bold;
+}
+
+#templateDataViewButtons {
+	float: left;
+	margin-top: 1em;
+}
+
+/* Parte derecha del editor */
+#cright {
+    font-family: Verdana, sans-serif;
+}
+
+// RWD sólo parte derecha, y cuando se incluya menú izq.
+@media (max-width: 1024px) {
+    #criteria, #cright {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1240px) {
+    #cright {
+        float: left;
+        width: 50%;
+    }
+}
+
+.panel_auto {
+	/*
+    clear: both;
+    display: inline-block!important;
+    overflow: hidden;
+    */
+    background-color: #ebebeb;
+    padding: 1em;
+    width: calc(20% + 386px);
+}
+
+.row_style_auto {
+    overflow: hidden;
+}
+
+.label_column_auto {
+    //width: 50%;
+    //height: 21px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.input_column_auto {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Share Template input */
+.input_column_person .ms-inputuserfield {
+    border: 1px solid #a3a3a3 !important;
+    color: #696969 !important;
+    font-size: 1em!important;
+    //height: 21px !important;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    //width: 21em;
+    width: auto;
+}
+
+#cright .input_column_person table.ms-usereditor table {
+    width: 370px !important;
+}
+
+/* Eliminar estilos en linea */
+#cright .input_column_person table.ms-usereditor tr > td:nth-child(2), .panel_auto table.ms-usereditor tr > td:nth-child(2) {
+    float: none !important;
+    padding: 0 !important;
+}
+
+#cright .panel_auto table.ms-usereditor {
+    width: 100%;
+}
+
+/* EDIT REPORT */
+
+/* CUSTOMIZACIÓN REPORT; VENTANAS MODALES */
+
+/* Contenedor */
+.ui-widget.ui-widget-content {
+    padding: 0;
+    width: auto;
+}
+
+/* Título */
+.ui-dialog .ui-dialog-titlebar {
+    background: #004494;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 1em !important;
+}
+
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+    margin-right: 6em;
+    white-space: inherit;
+    width: inherit;
+}
+
+/* Botión de cierre */
+.ui-dialog .ui-dialog-titlebar-close {
+    right: .5em !important;
+    top: 1.25em !important;
+}
+
+/* Contenido */
+.ui-dialog .ui-dialog-content {
+    box-sizing: border-box;
+    overflow: hidden !important;
+    padding: 1em !important;
+    width: 100% !important;
+}
+
+/* Título ventana */
+.label_span_order {
+    font-size: .9em;
+    font-style: normal;
+}
+
+/* Título secciones */
+.row_style_order {
+    clear: both;
+    color: #0072c6 !important;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0.5em 0 0.2em 0;
+    vertical-align: middle !important;
+    width: auto;
+}
+
+.ui-dialog .ui-dialog-content table {
+    margin: 0 0 2em 0;
+    width: 100% !important;
+}
+
+.ui-dialog .ui-dialog-content table th {
+    border-bottom: 1px solid #CCC;
+    color: #003759;
+}
+
+.ui-dialog .ui-dialog-content table th, .ui-dialog .ui-dialog-content table td {
+    padding: 5px;
+    text-align: left;
+}
+
+.ui-dialog .ui-dialog-content table label {
+
+}
+
+.ui-dialog .ui-dialog-content .col_buttons {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.ui-dialog .ui-dialog-content .first_row_col1_order table label {
+    /*
+    float: left;
+    width: 87%;
+    text-align: left;
+    vertical-align: middle;
+    min-width: 421px;
+    padding-left: 1px;
+    */
+    color: #333;
+    font-size: .7em;
+    width: 100%;
+}
+
+/* Panel Error; campo Obligatorio */
+.container__mandatory {
+    margin: 0 0 2rem 0;
+}
+
+.container__mandatory span {
+    background-color: #f2dede;
+    border: 1px solid #ebcccc;
+    border-radius: .25rem;
+    color: #a94442 !important;
+    margin-bottom: 1rem;
+    padding: .75rem 1.25rem;
+}
+
+/* Panel de Resultados */
+.grid-workflow {
+    margin-top: 0rem;
+}
+
+.information_message {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: .25rem;
+    color: #3c763d !important;
+    margin-bottom: 1rem;
+    padding: .75rem 1.25rem;
+}
+
+
+
+/* Fin FORMULARIOS */
+
+
+
+div.article, div.welcome{
+    padding: 0;
+}
+
+.welcome-content{
+    display: none;
+}
+
+#contentRow{
+    padding-top: 10px;
+}
+
+table.ms-listviewtable tr.ms-viewheadertr th:first-child{
+   width: 100px;
+}
+
+tr.ms-viewheadertr th a{
+    font-size: 14px;
+    font-weight: bold!important;
+    color:#003759
+}
+
+#diidSortDocIcon
+
+tr.ms-itmhover td{
+    padding: 5px 20px 5px 5px;
+}
+
+.ms-vb2{
+    padding: 5px 20px 5px 5px!important;
+}
+
+.grid-workflow .ms-vb2{
+    padding: 5px 20px 5px 5px!important;
+}
+
+
+table.ms-listviewtable tr.ms-viewheadertr th #imnhdr0{
+    padding-right: 10px;
+}
+
+tr.ms-viewheadertr th .ms-headerSortArrowLink{
+    display: inline;
+}
+
+tr.ms-emptyView th .ms-headerSortArrowLink{
+    display: inline;
+}
+
+.ms-webpartPage-root{
+    border-spacing: 10px;
+}
+
+.ms-webpartzone-cell{
+    margin: auto auto 0px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close{
+    min-width: 20px;
+}
+
+/* Change text alignment for default right aligned cells in list view*/
+.ms-numHeader, /* Header cells */
+.ms-listviewtable > tbody > tr td div /* Data cells */ {
+	text-align: left;
+}
+
+
+/*submenu*/
+#s4-titlerow li.dynamic-children ul.dynamic{
+   background: #004494;
+   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.47);
+   left: 0px!important;
+   margin-top:6px;
+}
+
+#s4-titlerow li.dynamic-children ul.dynamic a{
+    padding: 0px;
+    border-left: 0px solid #1a579f;
+}
+
+#s4-titlerow li.dynamic-children ul.dynamic a:hover {
+    background: transparent;
+    border-bottom: 0px solid #004494;
+    text-decoration: underline;
+}
+
+#s4-titlerow li.dynamic-children ul.dynamic a .menu-item-text {
+    border-left: 0px solid #1a579f;
+    font-size: 12px;
+    margin-top:5px;
+    display: block; 
+    color: #FFF;
+    font-weight: 600;
+    margin: 0;
+    padding: 2px 15px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;  
+}
+
+#titleAreaRow .ms-helperText, input.ms-helperText{
+    color:#FFF;
+}
+
+#titleAreaRow #SearchBox{
+    display: none;
+}
+
+.ms-core-listMenu-horizontalBox ul{
+    height:50px;
+}
+
+.ul-copy{
+    float:left;
+    padding-left:2em;
+}
+
+@media only screen and (min-width: 1490px) {
+    .label-workflow{
+        width: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 1240px) {
+    .input_text_general_field{
+        width: 205px!important;
+    }
+    
+    .chosen-container{
+        width: 217px!important;
+    }
+    
+    .input_text_general_field_LinkToWorkFlow{
+        width:130px;
+    }
+
+    .confidential{
+        width:auto;
+    }
+
+    .confidential table{
+        width: 200px!important;
+    }
+
+    .input_textarea_general_field{
+        width: 204px!important;
+    }
+
+    #s4-titlerow .static.menu-item .menu-item-text{
+        padding: 0;
+    }
+
+    .form_body , .subcontent_seventh_row{
+        padding-left: 0;
+    }
+
+}
+

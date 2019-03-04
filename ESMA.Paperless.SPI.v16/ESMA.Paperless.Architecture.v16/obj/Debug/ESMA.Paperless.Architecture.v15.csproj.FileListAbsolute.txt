@@ -1,0 +1,10 @@
+C:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\bin\Debug\ESMA.Paperless.Architecture.v15.dll
+C:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\bin\Debug\ESMA.Paperless.Architecture.v15.pdb
+C:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\obj\Debug\ESMA.Paperless.Architecture.v15.csprojResolveAssemblyReference.cache
+C:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\obj\Debug\ESMA.Paperless.Architecture.v15.dll
+C:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\obj\Debug\ESMA.Paperless.Architecture.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\bin\Debug\ESMA.Paperless.Architecture.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\bin\Debug\ESMA.Paperless.Architecture.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\obj\Debug\ESMA.Paperless.Architecture.v15.csprojResolveAssemblyReference.cache
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\obj\Debug\ESMA.Paperless.Architecture.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Architecture.v15\obj\Debug\ESMA.Paperless.Architecture.v15.pdb

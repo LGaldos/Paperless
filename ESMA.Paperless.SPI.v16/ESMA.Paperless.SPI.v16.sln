@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.Architecture.v16", "ESMA.Paperless.Architecture.v16\ESMA.Paperless.Architecture.v16.csproj", "{39072853-8058-4299-AFD1-3518227E432D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{57F9242C-729B-417A-9B3A-2C9B3C53D3A2} = {57F9242C-729B-417A-9B3A-2C9B3C53D3A2}
+		{630E70B4-416F-447D-8D85-09367F1962F5} = {630E70B4-416F-447D-8D85-09367F1962F5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.DailyProcess.v16", "ESMA.Paperless.DailyProcess.v16\ESMA.Paperless.DailyProcess.v16.csproj", "{81E2554D-452E-49F2-9845-F6CB521ED69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.Design.v16", "ESMA.Paperless.Design.v16\ESMA.Paperless.Design.v16.csproj", "{630E70B4-416F-447D-8D85-09367F1962F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.MaintenanceTasks.v16", "ESMA.Paperless.MaintenanceTasks.v16\ESMA.Paperless.MaintenanceTasks.v16.csproj", "{B4A981F4-23B3-4A33-B78A-B53FD77489A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.PrintProcess.v16", "ESMA.Paperless.PrintProcess.v16\ESMA.Paperless.PrintProcess.v16.csproj", "{F951FB81-301F-4D02-BC69-A65103A43CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.Reports.v16", "ESMA.Paperless.Reports.v16\ESMA.Paperless.Reports.v16.csproj", "{F9FCD51C-5E46-4802-BCE2-021FD3C049A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.EventsReceiver.v16", "ESMA.Paperless.SPI.v16\ESMA.Paperless.EventsReceiver.v16.csproj", "{57F9242C-729B-417A-9B3A-2C9B3C53D3A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.Views.v16", "ESMA.Paperless.Views.v16\ESMA.Paperless.Views.v16.csproj", "{BDF1D215-5F51-419C-9CE3-A3EA639318A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.Webparts.v16", "ESMA.Paperless.Webparts.v16\ESMA.Paperless.Webparts.v16.csproj", "{7F036F06-4D31-428A-B387-6020BDB7E2EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMA.Paperless.FileUploader.v16", "ESMA.Paperless.FileUploader.v16\ESMA.Paperless.FileUploader.v16.csproj", "{5683ACE4-82CB-496B-9F7A-8BC46F17C63F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39072853-8058-4299-AFD1-3518227E432D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39072853-8058-4299-AFD1-3518227E432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39072853-8058-4299-AFD1-3518227E432D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{39072853-8058-4299-AFD1-3518227E432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39072853-8058-4299-AFD1-3518227E432D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39072853-8058-4299-AFD1-3518227E432D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{81E2554D-452E-49F2-9845-F6CB521ED69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E2554D-452E-49F2-9845-F6CB521ED69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E2554D-452E-49F2-9845-F6CB521ED69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E2554D-452E-49F2-9845-F6CB521ED69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630E70B4-416F-447D-8D85-09367F1962F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630E70B4-416F-447D-8D85-09367F1962F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630E70B4-416F-447D-8D85-09367F1962F5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{630E70B4-416F-447D-8D85-09367F1962F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630E70B4-416F-447D-8D85-09367F1962F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630E70B4-416F-447D-8D85-09367F1962F5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B4A981F4-23B3-4A33-B78A-B53FD77489A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A981F4-23B3-4A33-B78A-B53FD77489A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A981F4-23B3-4A33-B78A-B53FD77489A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A981F4-23B3-4A33-B78A-B53FD77489A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F951FB81-301F-4D02-BC69-A65103A43CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F951FB81-301F-4D02-BC69-A65103A43CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F951FB81-301F-4D02-BC69-A65103A43CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F951FB81-301F-4D02-BC69-A65103A43CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FCD51C-5E46-4802-BCE2-021FD3C049A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FCD51C-5E46-4802-BCE2-021FD3C049A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FCD51C-5E46-4802-BCE2-021FD3C049A4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F9FCD51C-5E46-4802-BCE2-021FD3C049A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FCD51C-5E46-4802-BCE2-021FD3C049A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FCD51C-5E46-4802-BCE2-021FD3C049A4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{57F9242C-729B-417A-9B3A-2C9B3C53D3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F9242C-729B-417A-9B3A-2C9B3C53D3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F9242C-729B-417A-9B3A-2C9B3C53D3A2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{57F9242C-729B-417A-9B3A-2C9B3C53D3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F9242C-729B-417A-9B3A-2C9B3C53D3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F9242C-729B-417A-9B3A-2C9B3C53D3A2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BDF1D215-5F51-419C-9CE3-A3EA639318A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF1D215-5F51-419C-9CE3-A3EA639318A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF1D215-5F51-419C-9CE3-A3EA639318A1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BDF1D215-5F51-419C-9CE3-A3EA639318A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF1D215-5F51-419C-9CE3-A3EA639318A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF1D215-5F51-419C-9CE3-A3EA639318A1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7F036F06-4D31-428A-B387-6020BDB7E2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F036F06-4D31-428A-B387-6020BDB7E2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F036F06-4D31-428A-B387-6020BDB7E2EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7F036F06-4D31-428A-B387-6020BDB7E2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F036F06-4D31-428A-B387-6020BDB7E2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F036F06-4D31-428A-B387-6020BDB7E2EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5683ACE4-82CB-496B-9F7A-8BC46F17C63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5683ACE4-82CB-496B-9F7A-8BC46F17C63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5683ACE4-82CB-496B-9F7A-8BC46F17C63F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5683ACE4-82CB-496B-9F7A-8BC46F17C63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5683ACE4-82CB-496B-9F7A-8BC46F17C63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5683ACE4-82CB-496B-9F7A-8BC46F17C63F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88931264-846F-419B-82D2-8927D8DD43D5}
+	EndGlobalSection
+EndGlobal

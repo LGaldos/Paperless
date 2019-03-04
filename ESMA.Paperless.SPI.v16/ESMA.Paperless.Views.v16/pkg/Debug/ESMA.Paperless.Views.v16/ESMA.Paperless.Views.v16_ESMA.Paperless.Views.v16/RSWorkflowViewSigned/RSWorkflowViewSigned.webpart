@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ESMA.Paperless.Views.RSWorkflowViewSigned.RSWorkflowViewSigned, ESMA.Paperless.Views.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9df3bfc1eb45232a" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">RS - View WFs signed by Me</property>
+        <property name="Description" type="string">Workflow Signed by me Web Part for Routing Slip Workflow System.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

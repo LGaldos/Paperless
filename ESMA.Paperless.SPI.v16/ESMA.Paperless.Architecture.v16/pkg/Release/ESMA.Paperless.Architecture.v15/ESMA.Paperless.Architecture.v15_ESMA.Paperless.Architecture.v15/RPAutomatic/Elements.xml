@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{362d2339-3d62-403f-a5c4-6237b05a8b41}"
+       Name="RPAutomatic"
+       DisplayName="RP Automatic"
+       StaticName="RPAutomatic"
+       Type="Boolean"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Group="RS Columns"
+       SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}">
+    <Default>0</Default>
+  </Field>
+</Elements>

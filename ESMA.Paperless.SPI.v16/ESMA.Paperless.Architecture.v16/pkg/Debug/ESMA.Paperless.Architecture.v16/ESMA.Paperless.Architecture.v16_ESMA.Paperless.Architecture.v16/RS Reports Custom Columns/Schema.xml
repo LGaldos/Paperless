@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RS Reports Custom Columns" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RS Reports Custom Columns" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x0100A6E23D1D30B746A9BEF79EE4D6AB12B5">
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>      
+      <Field ID="{6f293916-68e6-4c91-9ea0-a3fb57ac6881}" Name="RPUser" DisplayName="RP User" StaticName="RPUser" Type="User" List="UserInfo" Required="FALSE" EnforceUniqueValues="FALSE" ShowField="ImnName" UserSelectionMode="PeopleOnly" UserSelectionScope="0" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{918d0459-10f2-4dff-902e-503b43c38499}" Name="RPCustomColumns" DisplayName="RP Custom Columns" StaticName="RPCustomColumns" Type="Note" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="FALSE" Sortable="FALSE" RestrictedMode="TRUE" RichTextMode="Compatible" IsolateStyles="FALSE" AppendOnly="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{2246cb53-c8ac-461a-aeaa-a13eb120df3e}" Name="RPCustomOrder" DisplayName="RP Custom Order" StaticName="RPCustomOrder" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+    </Fields>
+    <Views>            
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>          
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="RPUser" />
+          <FieldRef Name="RPCustomColumns" />
+          <FieldRef Name="RPCustomOrder" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

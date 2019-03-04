@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ESMA.Paperless.FileUploader.v15.RSWorkflowFileUploader.RSWorkflowFileUploader, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">RS - Workflow File Uploader</property>
+        <property name="Description" type="string">Workflow File Uploader Web Part for Routing Slip Workflow System (v.0.1.0).</property>
+        <property name="TitleIconImageUrl" type="string">/_layouts/15/images/CopyHS.png</property>
+        <property name="CatalogIconImageUrl" type="string">/_layouts/15/images/CopyHS.png</property>
+        <property name="ChromeType" type="chrometype">None</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="77b3f73d-95a3-453d-a396-3314cdd1f9e5" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="ESMA.Paperless.Design.v16.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\chosen-sprite.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\chosen.min.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_444444_256x240.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_555555_256x240.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_777620_256x240.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_777777_256x240.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_cc0000_256x240.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_ffffff_256x240.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\jquery-ui.min.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\prism.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\RSComun.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\RSGridStyles.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\RSReportsStyles.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\RSSearcherStyles.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\css\RSStyles.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\banner.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSAdd.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSArrowLeftDark.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSArrowLeftLight.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSArrowRightDark.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSArrowRightLight.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSBackgroundTitle.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSButtonBlue.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSButtonBlueLittle.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSClock.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSConfidential.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\rsemail.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSIconClose.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSloading.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSMinus.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSPlus.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSPreview.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSPrinter.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSRejected.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSTabBackground.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSTabBackground_big.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\images\RSwarning.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\js\chosen.jquery.min.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\js\CR24Code.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\js\jquery-1.9.1.min.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\js\jquery-ui.min.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\js\prism.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\js\RSJavascript.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\js\RSJavascript_gsa.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\RSErrorTemplates\img\go-back.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\RSErrorTemplates\img\RSwarning.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\RSErrorTemplates\message.htm" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v16\RSErrorTemplates\styles.css" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ESMA.Paperless.Design.v16_ESMA.Paperless.Design.v16\Feature.xml" />
+  </FeatureManifests>
+</Solution>

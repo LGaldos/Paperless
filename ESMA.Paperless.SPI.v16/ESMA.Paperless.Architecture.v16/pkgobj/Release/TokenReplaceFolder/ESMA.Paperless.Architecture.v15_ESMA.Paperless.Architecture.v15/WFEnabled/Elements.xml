@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{716b8716-67a0-48b3-9f70-52a87669deb0}"
+       Name="WFEnabled"
+       DisplayName="Workflow Enabled"
+       StaticName="WFEnabled"
+       Type="Boolean"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+    <Default>1</Default>
+  </Field>
+</Elements>

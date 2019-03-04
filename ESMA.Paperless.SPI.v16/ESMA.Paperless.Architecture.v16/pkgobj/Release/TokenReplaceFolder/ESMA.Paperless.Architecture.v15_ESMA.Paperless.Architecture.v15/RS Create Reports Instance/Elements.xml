@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Create Reports" OnQuickLaunch="FALSE" TemplateType="10001" Url="Lists/CreateReports" Description="List to store every reports to create"></ListInstance>
+</Elements>

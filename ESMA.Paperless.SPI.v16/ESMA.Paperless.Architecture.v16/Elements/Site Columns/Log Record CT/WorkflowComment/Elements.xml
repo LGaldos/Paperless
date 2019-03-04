@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{855d6320-80cf-42ea-96c8-718a378d88d0}"
+       Name="WorkflowComment"
+       DisplayName="Workflow Comment"
+       StaticName="WorkflowComment"
+       Type="Note"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       NumLines="6"
+       RichText="FALSE"
+       Sortable="FALSE"
+       Group="RS Columns"
+       RestrictedMode="TRUE"
+       RichTextMode="Compatible"
+       IsolateStyles="FALSE"
+       AppendOnly="FALSE"
+       UnlimitedLengthInDocumentLibrary="FALSE"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

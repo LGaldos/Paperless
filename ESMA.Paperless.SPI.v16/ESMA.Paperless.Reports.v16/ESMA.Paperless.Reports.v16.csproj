@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9FCD51C-5E46-4802-BCE2-021FD3C049A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESMA.Paperless.Reports.v16</RootNamespace>
+    <AssemblyName>ESMA.Paperless.Reports.v16</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\ESMA.Paperless.Reports.Timerjobs.v16\ESMA.Paperless.Reports.Timerjobs.v16.EventReceiver.cs">
+      <DependentUpon>ESMA.Paperless.Reports.Timerjobs.v16.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RSWorkflowMyReports\RSWorkflowMyReports.cs" />
+    <Compile Include="RSWorkflowMyReports\RSWorkflowMyReportsUserControl.ascx.cs">
+      <DependentUpon>RSWorkflowMyReportsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RSWorkflowMyReports\RSWorkflowMyReportsUserControl.ascx.designer.cs">
+      <DependentUpon>RSWorkflowMyReportsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RSWorkflowReportsMenu\RSWorkflowReportsMenu.cs" />
+    <Compile Include="RSWorkflowReportsMenu\RSWorkflowReportsMenuUserControl.ascx.cs">
+      <DependentUpon>RSWorkflowReportsMenuUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RSWorkflowReportsMenu\RSWorkflowReportsMenuUserControl.ascx.designer.cs">
+      <DependentUpon>RSWorkflowReportsMenuUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RSWorkflowReports\ControlManagement.cs" />
+    <Compile Include="RSWorkflowReports\DataManagement.cs" />
+    <Compile Include="RSWorkflowReports\ExcelManagement.cs" />
+    <Compile Include="RSWorkflowReports\Methods.cs" />
+    <Compile Include="RSWorkflowReports\Permissions.cs" />
+    <Compile Include="RSWorkflowReports\ReportsQuery.cs" />
+    <Compile Include="RSWorkflowReports\ReportsResults.cs" />
+    <Compile Include="RSWorkflowReports\RSWorkflowReports.cs" />
+    <Compile Include="RSWorkflowReports\RSWorkflowReportsUserControl.ascx.cs">
+      <DependentUpon>RSWorkflowReportsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RSWorkflowReports\RSWorkflowReportsUserControl.ascx.designer.cs">
+      <DependentUpon>RSWorkflowReportsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RSWorkflowReportTemplates\ReportTemplates.cs" />
+    <Compile Include="RSWorkflowReportTemplates\RSWorkflowReportTemplates.cs" />
+    <Compile Include="RSWorkflowReportTemplates\RSWorkflowReportTemplatesUserControl.ascx.cs">
+      <DependentUpon>RSWorkflowReportTemplatesUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RSWorkflowReportTemplates\RSWorkflowReportTemplatesUserControl.ascx.designer.cs">
+      <DependentUpon>RSWorkflowReportTemplatesUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RSWorkflowReportViewer\Methods.cs" />
+    <Compile Include="RSWorkflowReportViewer\RSWorkflowReportViewer.cs" />
+    <Compile Include="RSWorkflowReportViewer\RSWorkflowReportViewerUserControl.ascx.cs">
+      <DependentUpon>RSWorkflowReportViewerUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RSWorkflowReportViewer\RSWorkflowReportViewerUserControl.ascx.designer.cs">
+      <DependentUpon>RSWorkflowReportViewerUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimerJobs\Constants.cs" />
+    <Compile Include="TimerJobs\JobUtilities.cs" />
+    <Compile Include="TimerJobs\ReportsCreate.cs" />
+    <Compile Include="TimerJobs\ReportsSendMail.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\ESMA.Paperless.Reports.v16\ESMA.Paperless.Reports.v16.feature">
+      <FeatureId>{c9b1b605-2c4f-4aaa-a5c2-33aa476ba914}</FeatureId>
+    </None>
+    <None Include="Features\ESMA.Paperless.Reports.Timerjobs.v16\ESMA.Paperless.Reports.Timerjobs.v16.feature">
+      <FeatureId>{4d99365a-2b73-42d4-966a-347e8da67aff}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{37f47fd3-dd06-4476-856a-329b8ed2969c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="RSWorkflowMyReports\RSWorkflowMyReports.webpart" />
+    <None Include="RSWorkflowMyReports\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{108646af-7848-4284-a275-cac7f3c4d928}</SharePointProjectItemId>
+    </None>
+    <None Include="RSWorkflowReportsMenu\RSWorkflowReportsMenu.webpart" />
+    <None Include="RSWorkflowReportsMenu\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ffc13e63-ec38-4622-a6a2-e74273edb420}</SharePointProjectItemId>
+    </None>
+    <None Include="RSWorkflowReports\RSWorkflowReports.webpart" />
+    <None Include="RSWorkflowReports\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{804eddc7-1e1e-465a-b717-09356e77bd2d}</SharePointProjectItemId>
+    </None>
+    <None Include="RSWorkflowReportTemplates\RSWorkflowReportTemplates.webpart" />
+    <None Include="RSWorkflowReportTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6a361c35-9278-4c27-9138-30c81d1cbf92}</SharePointProjectItemId>
+    </None>
+    <None Include="RSWorkflowReportViewer\RSWorkflowReportViewer.webpart" />
+    <None Include="RSWorkflowReportViewer\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e3daf9bd-3e71-4fc7-a274-0398a3e8661d}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Features\ESMA.Paperless.Reports.v16\ESMA.Paperless.Reports.v16.Template.xml">
+      <DependentUpon>ESMA.Paperless.Reports.v16.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\ESMA.Paperless.Reports.Timerjobs.v16\ESMA.Paperless.Reports.Timerjobs.v16.Template.xml">
+      <DependentUpon>ESMA.Paperless.Reports.Timerjobs.v16.feature</DependentUpon>
+    </Content>
+    <Content Include="RSWorkflowMyReports\Elements.xml" />
+    <Content Include="RSWorkflowMyReports\RSWorkflowMyReportsUserControl.ascx" />
+    <Content Include="RSWorkflowReportsMenu\Elements.xml" />
+    <Content Include="RSWorkflowReportsMenu\RSWorkflowReportsMenuUserControl.ascx" />
+    <Content Include="RSWorkflowReports\Elements.xml" />
+    <Content Include="RSWorkflowReports\RSWorkflowReportsUserControl.ascx" />
+    <Content Include="RSWorkflowReportTemplates\Elements.xml" />
+    <Content Include="RSWorkflowReportTemplates\RSWorkflowReportTemplatesUserControl.ascx" />
+    <Content Include="RSWorkflowReportViewer\Elements.xml" />
+    <Content Include="RSWorkflowReportViewer\RSWorkflowReportViewerUserControl.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

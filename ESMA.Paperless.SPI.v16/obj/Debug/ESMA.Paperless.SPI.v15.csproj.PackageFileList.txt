@@ -1,0 +1,1 @@
+bin\Debug\ESMA.Paperless.SPI.v15.wsp

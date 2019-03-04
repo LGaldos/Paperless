@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{41d2036b-433e-4ca8-8472-520343e00da6}"
+       Name="WFID"
+       DisplayName="Workflow ID"
+       StaticName="WFID"
+       Type="Number"
+       Required="TRUE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Percentage="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

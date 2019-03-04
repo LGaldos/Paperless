@@ -1,0 +1,47 @@
+﻿
+
+
+/* Access Denied */
+
+.access-denied{
+    font-family: Verdana, sans-serif!important;
+    background-color: #fcf8e3;
+    border: 1px solid #faebcc;
+    z-index: 100;
+    color: #8a6d3b;
+    margin: 0 auto;
+    padding: 2em 2em 1em 2em;
+    width: 500px;
+    top:30%;
+    left: 30%;
+    position: absolute;
+}
+
+.access-denied h1{
+    color: #8a6d3b;
+    font-weight: bold;
+    background: url(img/RSwarning.png) no-repeat;
+    padding-left: 2em;
+    height: 30px;
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+.access-denied p{
+    font-size: 13px;
+    color:#8a6d3b;
+    padding: 1em 0 1em 0 
+}
+
+.goback{
+    float: right;
+    font-size: 13px;
+    text-decoration: none;
+    color:#8a6d3b;
+    background: url(img/go-back.png) 2px 2px no-repeat;
+    padding-left: 2em;
+}
+
+.goback:hover{
+    text-decoration: underline;
+}

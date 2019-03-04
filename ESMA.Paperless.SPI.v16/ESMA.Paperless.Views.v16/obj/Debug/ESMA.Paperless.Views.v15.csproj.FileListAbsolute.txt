@@ -1,0 +1,5 @@
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Views\obj\Debug\ESMA.Paperless.Views.v15.csprojResolveAssemblyReference.cache
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Views\bin\Debug\ESMA.Paperless.Views.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Views\bin\Debug\ESMA.Paperless.Views.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Views\obj\Debug\ESMA.Paperless.Views.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Views\obj\Debug\ESMA.Paperless.Views.pdb

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Workflow General Fields" 
+                OnQuickLaunch="TRUE" 
+                TemplateType="907" 
+                Url="Lists/WFGeneralFields" 
+                Description="List to feed Fields to Add site column in Workflow Configuration list.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="Title">Derogation Requested</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">2</Field>
+          <Field Name="Title">VAT Form</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">3</Field>
+          <Field Name="Title">Staff on Mission</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

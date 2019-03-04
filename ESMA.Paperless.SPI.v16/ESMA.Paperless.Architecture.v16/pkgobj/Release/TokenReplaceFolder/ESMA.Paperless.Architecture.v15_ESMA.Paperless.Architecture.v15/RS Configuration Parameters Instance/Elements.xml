@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Configuration Parameters" 
+                OnQuickLaunch="TRUE" 
+                TemplateType="904" 
+                Url="Lists/WFConfigParameters" 
+                Description="List to store all configuration parameters for administrator users.">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="Title">AD Password</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">2</Field>
+          <Field Name="Title">AD User</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">3</Field>
+          <Field Name="Title">RS Auditors Group</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">4</Field>
+          <Field Name="Title">Comment Length</Field>
+          <Field Name="Value1">256</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">5</Field>
+          <Field Name="Title">RS Default Administrator</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">6</Field>
+          <Field Name="Title">Domain</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">7</Field>
+          <Field Name="Title">E-mail Pending Subject</Field>
+          <Field Name="Value1">Paperless file for your action</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">8</Field>
+          <Field Name="Title">E-mail Pending Text</Field>
+          <Field Name="Value1">Dear Sir/Madam, The file [WF Subject] is pending your action. Please click on this link: [WF Link]. This is an automated message, please do not reply.</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">9</Field>
+          <Field Name="Title">E-mail Signed Subject</Field>
+          <Field Name="Value1">Validation of workflow {0}</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">10</Field>
+          <Field Name="Title">E-mail Signed Text</Field>
+          <Field Name="Value1">Workflow {0} in relation to {1} has been processed</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">11</Field>
+          <Field Name="Title">GeneralColumn_1</Field>
+          <Field Name="Value1">Urgent</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">12</Field>
+          <Field Name="Title">GeneralColumn_2</Field>
+          <Field Name="Value1">Workflow Subject</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">13</Field>
+          <Field Name="Title">Interface Page</Field>
+          <Field Name="Value1">/Pages/workflow.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">14</Field>
+          <Field Name="Title">LinkToWF_Sms</Field>
+          <Field Name="Value1">The workflow '{0}' does not exist</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">15</Field>
+          <Field Name="Title">New Workflows Page</Field>
+          <Field Name="Value1">/Pages/newworkflow.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">16</Field>
+          <Field Name="Title">Notifications Not Urgent Days</Field>
+          <Field Name="Value1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">17</Field>
+          <Field Name="Title">Notifications Urgent Days</Field>
+          <Field Name="Value1">1</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">18</Field>
+          <Field Name="Title">Null Electronic Stamp</Field>
+          <Field Name="Value1">None</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">19</Field>
+          <Field Name="Title">E-mail Report Shared Subject</Field>
+          <Field Name="Value1">Paperless – A new report template has been shared with you</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">20</Field>
+          <Field Name="Title">E-mail Report Shared Text</Field>
+          <Field Name="Value1">{0} has shared a report template with you. Please click on {1} / {2} to add the shared template to you report templates</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">21</Field>
+          <Field Name="Title">E-mail Report Template Subject</Field>
+          <Field Name="Value1">Paperless – {0} report</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">22</Field>
+          <Field Name="Title">E-mail Report Template Text</Field>
+          <Field Name="Value1">Find attached the report '{0}' for period {1}</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">23</Field>
+          <Field Name="Title">My Reports Page</Field>
+          <Field Name="Value1">/Pages/MyReports.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">24</Field>
+          <Field Name="Title">Reports Page</Field>
+          <Field Name="Value1">/Pages/Reports.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">25</Field>
+          <Field Name="Title">RS Admin Group</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">26</Field>
+          <Field Name="Title">RS Conf Admin Group</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">27</Field>
+          <Field Name="Title">RS Path Temp</Field>
+          <Field Name="Value1">C:\temp\RSPrintedDocuments</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">28</Field>
+          <Field Name="Title">RS Reassigning Group 1</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">29</Field>
+          <Field Name="Title">RS Reassigning Group 2</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">30</Field>
+          <Field Name="Title">Searcher Page</Field>
+          <Field Name="Value1">/Pages/advancedsearch.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">31</Field>
+          <Field Name="Title">Silverlight Visor - AllowTypes</Field>
+          <Field Name="Value1">All</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">32</Field>
+          <Field Name="Title">Silverlight Visor - FileLocation</Field>
+          <Field Name="Value1">/Lists/RSFileUploader/ESMA.Paperless.FileUploaderVisor.v15.xap</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">33</Field>
+          <Field Name="Title">Silverlight Visor - MaxFiles</Field>
+          <Field Name="Value1">5</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">34</Field>
+          <Field Name="Title">Silverlight Visor - MaxFileSize</Field>
+          <Field Name="Value1">1.5</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">35</Field>
+          <Field Name="Title">Silverlight Visor - MaxSize</Field>
+          <Field Name="Value1">3.2</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">36</Field>
+          <Field Name="Title">Sms Comment Lenght</Field>
+          <Field Name="Value1">Please, the length of the comment should not exceed 256 characters</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">37</Field>
+          <Field Name="Title">Status Closed</Field>
+          <Field Name="Value1">Closed</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">38</Field>
+          <Field Name="Title">Status Commented</Field>
+          <Field Name="Value1">Commented</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">39</Field>
+          <Field Name="Title">Status Deleted</Field>
+          <Field Name="Value1">Deleted</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">40</Field>
+          <Field Name="Title">Status Draft</Field>
+          <Field Name="Value1">Draft</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">41</Field>
+          <Field Name="Title">Status In Progress</Field>
+          <Field Name="Value1">In Progress</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">42</Field>
+          <Field Name="Title">Status Rejected</Field>
+          <Field Name="Value1">Rejected</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">43</Field>
+          <Field Name="Title">Upload Multiple Documents Page</Field>
+          <Field Name="Value1">/pages/fileuploader.aspx</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">44</Field>
+          <Field Name="Title">WFID Counter</Field>
+          <Field Name="Value1">100000</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">45</Field>
+          <Field Name="Title">RS Staff Ext Group</Field>
+          <Field Name="Value1"></Field>
+        </Row>
+        <Row>
+          <Field Name="ID">46</Field>
+          <Field Name="Title">GeneralColumn_3</Field>
+          <Field Name="Value1">Workflow Deadline</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">47</Field>
+          <Field Name="Title">GeneralColumn_4</Field>
+          <Field Name="Value1">Amount</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">48</Field>
+          <Field Name="Title">E-mail Workflow Subject</Field>
+          <Field Name="Value1">Paperless – A new workflow has been forwarded to you: ID &lt;WF ID&gt;</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">49</Field>
+          <Field Name="Title">E-mail Workflow Text</Field>
+          <Field Name="Value1">&lt;Username&gt; has forwarded workflow &lt;WF link&gt; to you.%0A%0A Please click on the workflow ID number to go to Paperless and view the full details.</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">50</Field>
+          <Field Name="Title">RS Print Title - Main</Field>
+          <Field Name="Value1">Main documents</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">51</Field>
+          <Field Name="Title">RS Print Title - Signed</Field>
+          <Field Name="Value1">Signed documents</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">52</Field>
+          <Field Name="Title">RS Print Title - Supporting</Field>
+          <Field Name="Value1">Supporting documents</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">53</Field>
+          <Field Name="Title">RS Print Title - To be signed in ABAC</Field>
+          <Field Name="Value1">Documents to be signed in ABAC</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">54</Field>
+          <Field Name="Title">RS Print Title - To be signed on paper</Field>
+          <Field Name="Value1">Documents to be signed on paper</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

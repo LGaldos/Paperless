@@ -1,0 +1,1 @@
+bin\Debug\ESMA.Paperless.Reports.v16.wsp

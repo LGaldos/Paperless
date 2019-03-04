@@ -1,0 +1,10 @@
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\bin\Debug\ESMA.Paperless.DailyProcess.v15.exe.config
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\bin\Debug\ESMA.Paperless.DailyProcess.v15.exe.manifest
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\bin\Debug\ESMA.Paperless.DailyProcess.v15.application
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\bin\Debug\ESMA.Paperless.DailyProcess.v15.exe
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\bin\Debug\ESMA.Paperless.DailyProcess.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\obj\Debug\ESMA.Paperless.DailyProcess.v15.exe.manifest
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\obj\Debug\ESMA.Paperless.DailyProcess.v15.application
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\obj\Debug\ESMA.Paperless.DailyProcess.v15.exe
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\obj\Debug\ESMA.Paperless.DailyProcess.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.DailyProcess.v15\obj\Debug\ESMA.Paperless.DailyProcess.v15.csprojResolveAssemblyReference.cache

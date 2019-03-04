@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Text"
+       ID="{f09ca57f-256d-4c4c-a12c-07b5b64fe75f}"
+       Name="WFLogURL"
+       StaticName="WFLogURL"
+       DisplayName="Workflow Log URL"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Sealed ="FALSE"
+       Sortable="TRUE"
+       Filterable  ="TRUE"
+       AllowDeletion ="FALSE"
+       MaxLength="255"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

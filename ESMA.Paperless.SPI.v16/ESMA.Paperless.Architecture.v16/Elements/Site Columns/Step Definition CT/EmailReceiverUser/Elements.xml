@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Lookup"
+       ID="{ecbdf0c6-e1d3-48f0-8b21-382cb9504fb7}"
+       Name="EmailReceiverUser"
+       StaticName="EmailReceiverUser"
+       DisplayName="E-mail Receiver User"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       List="Lists/WFGeneralFields"
+       ShowField="Title"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

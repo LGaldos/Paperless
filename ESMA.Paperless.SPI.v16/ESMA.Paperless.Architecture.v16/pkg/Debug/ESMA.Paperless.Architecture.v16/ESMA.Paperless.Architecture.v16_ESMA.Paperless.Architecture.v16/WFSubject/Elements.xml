@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0bac0e69-193a-4e99-9837-ae8bbd11c19c}"
+       Name="WFSubject"
+       DisplayName="Workflow Subject"
+       StaticName="WFSubject"
+       Type="Text"
+       Required="FALSE"
+       MaxLength="255"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

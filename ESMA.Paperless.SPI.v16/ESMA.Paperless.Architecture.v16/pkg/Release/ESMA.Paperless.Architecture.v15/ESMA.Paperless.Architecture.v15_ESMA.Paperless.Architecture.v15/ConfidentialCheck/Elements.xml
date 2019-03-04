@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{6fae9b5f-5af3-42f3-9e81-a738ecd485cb}"
+       Name="ConfidentialCheck"
+       DisplayName="Confidential"
+       StaticName="ConfidentialCheck"
+       Type="URL"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Format="Image"
+       Group="RS Columns"
+       SourceID="{15608141-ad0d-433f-b70f-63c3fc01cab3}">
+  </Field>
+</Elements>

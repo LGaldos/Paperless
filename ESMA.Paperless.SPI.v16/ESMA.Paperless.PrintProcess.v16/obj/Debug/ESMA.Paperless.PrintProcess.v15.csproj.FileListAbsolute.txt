@@ -1,0 +1,6 @@
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\bin\Debug\ESMA.Paperless.PrintProcess.v15.exe.config
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\bin\Debug\ESMA.Paperless.PrintProcess.v15.exe
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\bin\Debug\ESMA.Paperless.PrintProcess.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\obj\Debug\ESMA.Paperless.PrintProcess.v15.exe
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\obj\Debug\ESMA.Paperless.PrintProcess.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\obj\Debug\ESMA.Paperless.PrintProcess.v15.csprojResolveAssemblyReference.cache

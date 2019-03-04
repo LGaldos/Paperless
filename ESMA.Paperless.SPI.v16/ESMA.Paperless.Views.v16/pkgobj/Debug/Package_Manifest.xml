@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="246744ff-c0cb-4e2a-a6ba-9526c24e9d53" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="ESMA.Paperless.Views.v16.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ESMA.Paperless.Views.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9df3bfc1eb45232a" Namespace="ESMA.Paperless.Views.RSWorkflowViewAll" TypeName="*" />
+        <SafeControl Assembly="ESMA.Paperless.Views.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9df3bfc1eb45232a" Namespace="ESMA.Paperless.Views.RSWorkflowViewSigned" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Views\RSWorkflowViewAll\RSWorkflowViewAllUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Views\RSWorkflowViewSigned\RSWorkflowViewSignedUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ESMA.Paperless.Views.v16_ESMA.Paperless.Views.v16\Feature.xml" />
+  </FeatureManifests>
+</Solution>

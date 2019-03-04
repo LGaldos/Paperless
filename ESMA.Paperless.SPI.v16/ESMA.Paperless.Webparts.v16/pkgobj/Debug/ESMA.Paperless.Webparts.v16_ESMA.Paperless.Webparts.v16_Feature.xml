@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Description="This feature package deploys Routing Slip web part solutions (v.2.0.0)" Id="4a487d03-1a97-4141-88c3-5ba0154889aa" Scope="Site" Title="ESMA.Paperless.Webparts.v16 - Routing Slip Webparts">
+  <ElementManifests>
+    <ElementManifest Location="RSWorkflowInitiation\Elements.xml" />
+    <ElementFile Location="RSWorkflowInitiation\RSWorkflowInitiation.webpart" />
+    <ElementManifest Location="RSWorkflow\Elements.xml" />
+    <ElementFile Location="RSWorkflow\RSWorkflow.webpart" />
+    <ElementManifest Location="RSWorkflowAdvancedSearch\Elements.xml" />
+    <ElementFile Location="RSWorkflowAdvancedSearch\RSWorkflowAdvancedSearch.webpart" />
+    <ElementManifest Location="RSWorkflowViewStatusInitiated\Elements.xml" />
+    <ElementFile Location="RSWorkflowViewStatusInitiated\RSWorkflowViewStatusInitiated.webpart" />
+    <ElementManifest Location="RSWorkflowViewToBeSigned\Elements.xml" />
+    <ElementFile Location="RSWorkflowViewToBeSigned\RSWorkflowViewToBeSigned.webpart" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,1 @@
+bin\Debug\ESMA.Paperless.Views.v16.wsp

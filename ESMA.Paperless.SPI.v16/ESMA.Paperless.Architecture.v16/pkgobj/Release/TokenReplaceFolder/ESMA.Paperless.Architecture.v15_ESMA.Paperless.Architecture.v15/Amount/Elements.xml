@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ef914ea7-ea38-425f-88ac-f99ad5021d11}"
+       Name="Amount"
+       DisplayName="Amount"
+       StaticName="Amount"
+       Type="Text"
+       Required="FALSE"
+       MaxLength="255"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

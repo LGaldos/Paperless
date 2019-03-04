@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{27f26b59-7f95-479a-953e-a2f52ef2ae25}"
+       Name="Rejection"
+       DisplayName="Rejection"
+       StaticName="Rejection"
+       Type="URL"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Format="Image"
+       Group="RS Columns"
+       SourceID="{561d1082-e3ff-40bc-bacf-dcce0ebc5dd7}">
+  </Field>
+</Elements>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{550bfb85-fb47-4a8a-bc40-5ace4c654bb5}"
+       Name="RPShowSteps"
+       DisplayName="Report Show Steps"
+       StaticName="RPShowSteps"
+       Type="Boolean"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Group="RS Columns"
+       SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}">
+    <Default>0</Default>
+  </Field>
+</Elements>

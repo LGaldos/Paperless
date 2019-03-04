@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="RSFileUploaderVisor" List="113" Url="_catalogs/wp">
+    <File Path="RSFileUploaderVisor\RSFileUploaderVisor.webpart" Url="ESMA.Paperless.FileUploader.v15_RSFileUploaderVisor.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="Routing Slip System" />
+    </File>
+  </Module>
+  <Module Name="RSFileUploaderVisor">
+    <File Path="RSFileUploaderVisor\ESMA.Paperless.FileUploaderVisor.v15.xap" Url="SiteAssets/ESMA.Paperless.FileUploader.v15/RSFileUploaderVisor/ESMA.Paperless.FileUploaderVisor.v15.xap" />
+  </Module>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100A6E23D1D30B746A9BEF79EE4D6AB12B5" Name="Report Custom Columns" Group="RS Content Types" Description="Report Custom Columns" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{6f293916-68e6-4c91-9ea0-a3fb57ac6881}" DisplayName="RP User" Required="FALSE" Name="RPUser" />
+      <FieldRef ID="{918d0459-10f2-4dff-902e-503b43c38499}" DisplayName="RP Custom Columns" Required="FALSE" Name="RPCustomColumns" NumLines="6" Sortable="FALSE" />
+      <FieldRef ID="{2246cb53-c8ac-461a-aeaa-a13eb120df3e}" DisplayName="RP Custom Order" Required="FALSE" Name="RPCustomOrder" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

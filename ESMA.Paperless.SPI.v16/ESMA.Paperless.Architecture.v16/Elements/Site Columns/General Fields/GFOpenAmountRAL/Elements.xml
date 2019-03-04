@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b5048806-383a-4c4e-b918-ed0a5ccc50dc}"
+       Name="GFOpenAmountRAL"
+       DisplayName="Open Amount RAL"
+       Type="Text"
+       Required="FALSE"
+       Group="RS Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Text"
+       ID="{e435ee86-70a8-4d50-9253-d2a6737a31e2}"
+       Name="WFLibraryURL"
+       StaticName="WFLibraryURL"
+       DisplayName="Workflow Library URL"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Sealed ="FALSE"
+       Sortable="TRUE"
+       Filterable  ="TRUE"
+       AllowDeletion ="FALSE"
+       MaxLength="255"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

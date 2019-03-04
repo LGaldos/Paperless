@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Number"
+    ID="{1ce3da8c-90f8-4dbe-b8ab-f5de4ba6f348}"
+    Name="WFOrder"
+    StaticName="WFOrder"
+    DisplayName="Workflow Order"
+    Commas="FALSE"
+    Min="1"
+    Decimals="0"
+    Required="TRUE"
+    EnforceUniqueValues="TRUE"
+    Indexed="TRUE"
+    Sealed ="FALSE"
+    Sortable="TRUE"
+    Filterable  ="TRUE"
+    Group="RS Columns"
+    SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

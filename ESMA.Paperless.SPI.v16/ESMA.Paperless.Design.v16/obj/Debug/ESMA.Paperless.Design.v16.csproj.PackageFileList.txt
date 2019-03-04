@@ -1,0 +1,1 @@
+bin\Debug\ESMA.Paperless.Design.v16.wsp

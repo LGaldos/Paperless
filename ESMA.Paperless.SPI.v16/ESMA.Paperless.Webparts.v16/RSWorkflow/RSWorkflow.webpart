@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ESMA.Paperless.Webparts.v16.RSWorkflow.RSWorkflow, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">RS Workflow Interface</property>
+        <property name="Description" type="string">General Interface for Routing Slip Workflow System.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

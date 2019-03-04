@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Workflow Library" OnQuickLaunch="TRUE" TemplateType="906" Url="Lists/RSWorkflowLibrary" Description="List to store every workflow metadata and documentation."></ListInstance>
+</Elements>

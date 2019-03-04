@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.SilverlightWebPart" DefaultFile="RSFileUploaderVisor.webpart" SupportedTrustLevels="All" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="RSFileUploaderVisor\" Type="ElementManifest" />
+    <ProjectItemFile Source="RSFileUploaderVisor.webpart" Target="RSFileUploaderVisor\" Type="ElementFile" />
+    <ProjectOutputFile ProjectId="fff0ec66-dd6d-4f7c-89b9-23e34c7e3b9e" ProjectPath="..\ESMA.Paperless.FileUploaderVisor.v15\ESMA.Paperless.FileUploaderVisor.v15.csproj" Target="RSFileUploaderVisor\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

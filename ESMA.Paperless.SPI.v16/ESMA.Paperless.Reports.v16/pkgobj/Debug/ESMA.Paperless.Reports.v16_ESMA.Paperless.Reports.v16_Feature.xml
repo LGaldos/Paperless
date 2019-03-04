@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Description="This feature package deploys Routing Slip Reports module (v.2.0.0)" Id="360286ba-204c-42ed-b0e4-febce5c70c63" Scope="Site" Title="ESMA.Paperless.Reports.v16 - Routing Slip Reports">
+  <ElementManifests>
+    <ElementManifest Location="RSWorkflowReports\Elements.xml" />
+    <ElementFile Location="RSWorkflowReports\RSWorkflowReports.webpart" />
+    <ElementManifest Location="RSWorkflowReportsMenu\Elements.xml" />
+    <ElementFile Location="RSWorkflowReportsMenu\RSWorkflowReportsMenu.webpart" />
+    <ElementManifest Location="RSWorkflowReportTemplates\Elements.xml" />
+    <ElementFile Location="RSWorkflowReportTemplates\RSWorkflowReportTemplates.webpart" />
+    <ElementManifest Location="RSWorkflowReportViewer\Elements.xml" />
+    <ElementFile Location="RSWorkflowReportViewer\RSWorkflowReportViewer.webpart" />
+    <ElementManifest Location="RSWorkflowMyReports\Elements.xml" />
+    <ElementFile Location="RSWorkflowMyReports\RSWorkflowMyReports.webpart" />
+  </ElementManifests>
+</Feature>

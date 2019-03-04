@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{4de89985-29df-4c13-8cc6-f2e59ee0eae1}"
+       Name="RSQueryLog"
+       DisplayName="Query Log"
+       StaticName="RSQueryLog"
+       Type="Note"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       NumLines="30"
+       RichText="FALSE"
+       Sortable="FALSE"
+       Group="RS Columns"
+       RestrictedMode="TRUE"
+       RichTextMode="Compatible"
+       IsolateStyles="FALSE"
+       AppendOnly="FALSE"
+       UnlimitedLengthInDocumentLibrary="TRUE"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

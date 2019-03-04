@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ESMA.Paperless.Webparts.v15.RSWorkflowViewAll.RSWorkflowViewAll, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">RS - View All WFs</property>
+        <property name="Description" type="string">All Workflows Web Part for Routing Slip Workflow System. (v.1.1.0)</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

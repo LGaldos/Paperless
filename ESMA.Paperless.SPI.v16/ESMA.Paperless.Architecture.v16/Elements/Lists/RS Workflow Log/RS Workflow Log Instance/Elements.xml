@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Workflow Log" OnQuickLaunch="TRUE" TemplateType="905" Url="Lists/RSWorkflowLog" Description="List to save all activity in the workflow system."></ListInstance>
+</Elements>

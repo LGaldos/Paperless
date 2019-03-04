@@ -1,0 +1,1 @@
+bin\Debug\ESMA.Paperless.EventsReceiver.v15.wsp

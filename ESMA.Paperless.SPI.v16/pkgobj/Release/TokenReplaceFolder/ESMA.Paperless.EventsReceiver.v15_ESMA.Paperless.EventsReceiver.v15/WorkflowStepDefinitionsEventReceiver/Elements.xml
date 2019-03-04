@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="902">
+      <Receiver>
+        <Name>WorkflowStepDefinitionsEventReceiverItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>ESMA.Paperless.EventsReceiver.v15, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v15.EventsReceiver.WorkflowStepDefinitionsEventReceiver.WorkflowStepDefinitionsEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>WorkflowStepDefinitionsEventReceiverItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>ESMA.Paperless.EventsReceiver.v15, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v15.EventsReceiver.WorkflowStepDefinitionsEventReceiver.WorkflowStepDefinitionsEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>WorkflowStepDefinitionsEventReceiverItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>ESMA.Paperless.EventsReceiver.v15, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v15.EventsReceiver.WorkflowStepDefinitionsEventReceiver.WorkflowStepDefinitionsEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

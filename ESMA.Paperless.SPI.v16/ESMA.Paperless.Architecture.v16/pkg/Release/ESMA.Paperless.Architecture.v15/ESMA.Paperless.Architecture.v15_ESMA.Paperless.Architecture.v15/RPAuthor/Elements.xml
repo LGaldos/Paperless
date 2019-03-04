@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1d683270-533b-4865-b5ee-b52f431e11ab}"
+       Name="RPAuthor"
+       DisplayName="RP Author"
+       StaticName="RPAuthor"
+       Type="User"
+       List="UserInfo"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       ShowField="ImnName"
+       UserSelectionMode="PeopleOnly"
+       UserSelectionScope="0"
+       Group="RS Columns"
+       SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}">
+  </Field>
+</Elements>

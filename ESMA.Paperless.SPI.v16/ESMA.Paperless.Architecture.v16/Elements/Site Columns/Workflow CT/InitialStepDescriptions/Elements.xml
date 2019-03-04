@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9cffe9c6-0ca1-49dc-a4ea-4c5fc71fd951}"
+       Name="InitialStepDescriptions"
+       DisplayName="Initial Step Descriptions"
+       StaticName="InitialStepDescriptions"
+       Type="Note"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       NumLines="30"
+       Sortable="FALSE"
+       RichText="FALSE"
+       RestrictedMode="TRUE"
+       RichTextMode="Compatible"
+       IsolateStyles="FALSE"
+       AppendOnly="FALSE"
+       UnlimitedLengthInDocumentLibrary="FALSE"       
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

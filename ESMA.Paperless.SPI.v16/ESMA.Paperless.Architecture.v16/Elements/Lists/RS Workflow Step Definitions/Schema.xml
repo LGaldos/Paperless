@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RS Workflow Step Definitions" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RSArchitecture-WorkflowStepDefinitions" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x0100CAB1AAF3F65C48BD8C1298B8B55BE775">
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field Type="Number" ID="{7973d9cb-3ffe-4a47-af1e-0d94283bc293}" Name="StepNumber" StaticName="StepNumber" DisplayName="Step Number" Commas="FALSE" Min="1" Decimals="0" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="Note" ID="{e4854459-eb22-4d64-a3fb-22f2bfcd78df}" Name="StepDescription" DisplayName="Step Description" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" AllowDeletion="FALSE" NumLines="30" RichText="TRUE" RestrictedMode="TRUE" RichTextMode="FullHTML" IsolateStyles="FALSE" AppendOnly="FALSE" UnlimitedLengthInDocumentLibrary="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="User" ID="{c1630744-ded4-4c64-aeed-adee90ffb663}" Name="WFGroup" StaticName="WFGroup" DisplayName="Workflow Group" List="UserInfo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sortable="FALSE" Filterable="TRUE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" Mult="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="User" ID="{47843ca1-806e-4aa8-ab75-562acd1331d3}" Name="DefaultActor" StaticName="DefaultActor" DisplayName="Default Actor" List="UserInfo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sortable="FALSE" Filterable="TRUE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" Mult="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="Choice" ID="{11d8f655-3354-40fd-a658-a11b6c441307}" Name="ElectronicStamp" StaticName="ElectronicStamp" DisplayName="Electronic Stamp" FillInChoice="FALSE" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+        <Default>None</Default>
+        <CHOICES>
+          <CHOICE>None</CHOICE>
+          <CHOICE>SIGNED: Sent for payment</CHOICE>
+          <CHOICE>SIGNED: "Conforme aux faits"</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field Type="Boolean" ID="{cac8af0b-f985-49a3-9d69-e6c7efee9ceb}" Name="SendEmail" StaticName="SendEmail" DisplayName="Send E-mail" EnforceUniqueValues="FALSE" Indexed="FALSE" Sortable="TRUE" Filterable="TRUE" Required="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+        <Default>0</Default>
+      </Field>
+      <Field Type="Text" ID="{828beb45-690b-467a-ad62-bb65a131a413}" Name="EmailStepSubject" StaticName="EmailStepSubject" DisplayName="Email Step Subject" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" AllowDeletion="FALSE" AppendOnly="FALSE" UnlimitedLengthInDocumentLibrary="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}" MaxLength="255"></Field>
+      <Field Type="Note" ID="{f58c195e-47cd-4fe8-b23f-706b7f4daefc}" Name="EmailStepText" StaticName="EmailStepText" DisplayName="Email Step Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" AllowDeletion="FALSE" NumLines="30" RichText="FALSE" RestrictedMode="TRUE" IsolateStyles="FALSE" AppendOnly="FALSE" UnlimitedLengthInDocumentLibrary="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="User" ID="{33953755-00d4-40af-8e42-ee338fc69bea}" Name="EmailReceiverGroup" StaticName="EmailReceiverGroup" DisplayName="E-mail Receiver Group" List="UserInfo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sortable="FALSE" Filterable="TRUE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" Mult="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="Lookup" ID="{ecbdf0c6-e1d3-48f0-8b21-382cb9504fb7}" Name="EmailReceiverUser" StaticName="EmailReceiverUser" DisplayName="E-mail Receiver User" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}" List="Lists/WFGeneralFields" ShowField="Title"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="StepNumber" />
+          <FieldRef Name="StepDescription" />
+          <FieldRef Name="WFGroup" />
+          <FieldRef Name="BackupGroup" />
+          <FieldRef Name="DefaultActor" />
+          <FieldRef Name="ElectronicStamp" />
+          <FieldRef Name="SendEmail" />
+          <FieldRef Name="EmailStepSubject" />
+          <FieldRef Name="EmailStepText" />
+          <FieldRef Name="EmailReceiverUser" />
+          <FieldRef Name="EmailReceiverGroup" />
+        </ViewFields>
+        <Query>
+          <GroupBy Collapse="FALSE" GroupLimit="50">
+            <FieldRef Name="Title">
+            </FieldRef>
+          </GroupBy>
+          <OrderBy>
+            <FieldRef Name="Title">
+            </FieldRef>
+            <FieldRef Name="StepNumber" Ascending="TRUE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="StepNumber" />
+          <FieldRef Name="StepDescription" />
+          <FieldRef Name="WFGroup" />
+          <FieldRef Name="DefaultActor" />
+          <FieldRef Name="ElectronicStamp" />
+          <FieldRef Name="SendEmail" />
+          <FieldRef Name="EmailStepText" />
+          <FieldRef Name="EmailReceiverGroup" />
+          <FieldRef Name="EmailStepSubject" />
+          <FieldRef Name="EmailReceiverUser" />
+        </ViewFields>
+        <Query>
+          <GroupBy Collapse="FALSE" GroupLimit="50">
+
+
+
+
+
+            <FieldRef Name="Title">
+            </FieldRef>
+          </GroupBy>
+          <OrderBy>
+
+
+
+
+
+
+
+
+
+
+            <FieldRef Name="Title">
+            </FieldRef>
+            <FieldRef Name="StepNumber" Ascending="TRUE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

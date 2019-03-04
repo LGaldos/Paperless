@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Choice"
+    ID="{dafec69a-1c5b-40e6-af5b-6cef4add652c}"
+    DisplayName="Workflow Category"
+    Name="WFCategory"
+    StaticName="WFCategory"
+    FillInChoice="FALSE"
+    Required="TRUE" 
+    EnforceUniqueValues="FALSE" 
+    Indexed="TRUE"
+    Sealed ="FALSE"
+    Sortable="TRUE"
+    Filterable  ="TRUE"
+    Group="RS Columns"
+    SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+    <Default>Other Workflows</Default>
+    <CHOICES>
+      <CHOICE>Budget management</CHOICE>
+      <CHOICE>Contracts &amp; Commitments</CHOICE>
+      <CHOICE>Human Resources</CHOICE>
+      <CHOICE>Payments</CHOICE>
+      <CHOICE>Procurement</CHOICE>
+      <CHOICE>Other Workflows</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

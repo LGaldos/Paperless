@@ -1,0 +1,1 @@
+bin\Debug\ESMA.Paperless.FileUploader.v15.wsp

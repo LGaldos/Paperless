@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2c945868-ba12-477c-ab33-dfda72c8aa81" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="ESMA.Paperless.EventsReceiver.v16.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ESMA.Paperless.EventsReceiver.v16_ESMA.Paperless.EventsReceiver.v16\Feature.xml" />
+  </FeatureManifests>
+</Solution>

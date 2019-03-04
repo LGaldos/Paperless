@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Reports Library" OnQuickLaunch="TRUE" TemplateType="909" Url="Lists/ReportsLibrary" Description="List to store every reports and excel files."></ListInstance>
+</Elements>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS File Uploader" OnQuickLaunch="TRUE" TemplateType="10002" Url="Lists/RSFileUploader" Description="RS File Uploader"></ListInstance>
+</Elements>

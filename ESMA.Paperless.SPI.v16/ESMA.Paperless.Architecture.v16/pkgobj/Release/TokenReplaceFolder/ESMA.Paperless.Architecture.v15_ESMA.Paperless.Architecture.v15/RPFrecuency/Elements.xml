@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e1dfe628-7e3d-4933-b03f-dc7a1d5d1e5f}"
+       Name="RPFrecuency"
+       DisplayName="RP Frequency"
+       StaticName="RPFrecuency"
+       Type="Choice"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Format="Dropdown"
+       FillInChoice="FALSE"
+       Group="RS Columns"
+       SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}">
+    <Default>Daily</Default>
+    <CHOICES>
+      <CHOICE>Daily</CHOICE>
+      <CHOICE>Weekly</CHOICE>
+      <CHOICE>Monthly</CHOICE>
+      <CHOICE>Yearly</CHOICE>
+    </CHOICES>    
+  </Field>
+</Elements>

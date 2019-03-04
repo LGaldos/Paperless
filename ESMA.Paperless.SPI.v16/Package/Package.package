@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2c945868-ba12-477c-ab33-dfda72c8aa81" solutionId="2c945868-ba12-477c-ab33-dfda72c8aa81" resetWebServer="false" sharePointProductVersion="16.0" name="ESMA.Paperless.EventsReceiver.v16" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="da7e38e5-972c-42c5-890f-98cd3a4820cd" />
+  </features>
+</package>

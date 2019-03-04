@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="901">
+      <Receiver>
+        <Name>WorkflowConfigurationEventReceiverItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v16.EventsReceiver.WorkflowConfigurationEventReceiver.WorkflowConfigurationEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>WorkflowConfigurationEventReceiverItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v16.EventsReceiver.WorkflowConfigurationEventReceiver.WorkflowConfigurationEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>WorkflowConfigurationEventReceiverItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v16.EventsReceiver.WorkflowConfigurationEventReceiver.WorkflowConfigurationEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

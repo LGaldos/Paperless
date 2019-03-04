@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9f0a058b-91a2-44d4-9284-611d2fd218aa}"
+       Name="RPStartDate"
+       DisplayName="RP Start Date"
+       StaticName="RPStartDate"
+       Type="Text"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       MaxLength="255"
+       Group="RS Columns"
+       SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}">
+  </Field>
+</Elements>

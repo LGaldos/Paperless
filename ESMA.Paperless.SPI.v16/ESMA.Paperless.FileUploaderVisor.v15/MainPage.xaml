@@ -1,0 +1,92 @@
+﻿<UserControl x:Class="ESMA.Paperless.FileUploaderVisor.v15.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+    xmlns:datainput="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data.Input"
+    xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit"
+    mc:Ignorable="d"
+    d:DesignHeight="400" d:DesignWidth="690">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="360"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="69*"/>
+        </Grid.ColumnDefinitions>
+
+        <data:DataGrid  x:Name="dg" Grid.Column="0" Grid.Row="0"  Margin="1" AutoGenerateColumns="False" 
+            GridLinesVisibility="None" HeadersVisibility="All" CanUserSortColumns="False"
+            IsReadOnly="False" CanUserResizeColumns="False" Grid.ColumnSpan="2" >
+            <data:DataGrid.Columns>
+                <!-- "<data:DataGridTextColumn Header="File Name" IsReadOnly="True" Width="280" Binding="{Binding FileName}"  ToolTipService.ToolTip="{Binding FileName}" MaxWidth="550" /> -->
+                <data:DataGridTemplateColumn Header="File Name" IsReadOnly="True" Width="280">
+                    <data:DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding FileName}" ToolTipService.ToolTip="{Binding FileName}" VerticalAlignment="Center" />
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellEditingTemplate>
+                </data:DataGridTemplateColumn>
+                <data:DataGridTextColumn Header="Label" IsReadOnly="False" Width="115" Binding="{Binding FileLabel}" ToolTipService.ToolTip="{Binding FileLabel}"  Visibility="Collapsed"/>
+                <data:DataGridTextColumn Header="Size" IsReadOnly="True" Width="60" Binding="{Binding FileSize}" />
+                <!-- <data:DataGridCheckBoxColumn Header="OverWrite" Width="90" Binding="{Binding FileOverwrite}" /> -->
+                <data:DataGridTemplateColumn Header="Overwrite" Width="80">
+                    <data:DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <CheckBox IsThreeState="False" IsChecked="{Binding Path=FileOverwrite, Mode=TwoWay}" HorizontalAlignment="Center" />
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellEditingTemplate>
+                </data:DataGridTemplateColumn>
+
+                <data:DataGridTemplateColumn Width="65" Header="Remove">
+                    <data:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <Button x:Name="DeleteButton" Content="Delete" VerticalAlignment="Center" HorizontalAlignment="Center" Click="DeleteButton_Click" ></Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellTemplate>
+                </data:DataGridTemplateColumn>
+                <data:DataGridTextColumn Header="Status" IsReadOnly="True" Width="74" Binding="{Binding FileStatus}" />
+            </data:DataGrid.Columns>
+        </data:DataGrid>
+
+        <TextBlock x:Name="textDrop" TextWrapping="Wrap" Text="Drop Files Here"  Grid.Column="1" Grid.Row="0"
+                       HorizontalAlignment="Center" VerticalAlignment="Center" Margin="297,172,307,172"/>
+
+        <Button Content="Clear" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="372,9,0,8"  VerticalAlignment="Center" Name="ClearButton" Width="90" Foreground="#FFFFF9F9" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="Border" Background="#10496a" CornerRadius="4">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <ProgressBar Grid.Row="1" Height="25" HorizontalAlignment="Center" Margin="9,8,335,7" Name="progressBar1" VerticalAlignment="Center" Width="346" Visibility="Collapsed" Grid.Column="1" />
+        <Button Content="Upload" Grid.Column="1" Grid.Row="1"  Height="23" HorizontalAlignment="Right" Margin="0,9,121,8" x:Name="UploadButton" VerticalAlignment="Center" Width="90" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="Border" Background="#10496a" CornerRadius="4">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Close" Grid.Column="1" Grid.Row="1"  Height="23" HorizontalAlignment="Right" Margin="0,9,14,8" x:Name="CloseButton" VerticalAlignment="Center" Width="90" BorderBrush="{x:Null}" Foreground="White" Cursor="Hand" Visibility="Visible" Click="CloseButton_Click_1">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="Border" Background="#10496a" CornerRadius="4">
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <TextBlock Margin="9,11,335,9" Name="txtMessage" Height="20" FontSize="11"  VerticalAlignment="Center" Width="346"  Visibility="Collapsed" TextWrapping="Wrap" Grid.Column="1" Grid.Row="1"  />
+
+    </Grid>
+</UserControl>

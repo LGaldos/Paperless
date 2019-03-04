@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2246cb53-c8ac-461a-aeaa-a13eb120df3e}"
+       Name="RPCustomOrder"
+       DisplayName="RP Custom Order"
+       StaticName="RPCustomOrder"
+       Type="Text"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       MaxLength="255"       
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

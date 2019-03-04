@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100276B61F82CB74CA79B9863A63A559C79" Name="Report Definition" Group="RS Content Types" Description="Report" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{35ebaff1-df7d-4b67-9ab9-161b3e347bcf}" DisplayName="Report ID" Required="TRUE" Name="RPID" />
+      <FieldRef ID="{5174a88e-8e25-469b-bb1f-6cfa9e5819fa}" DisplayName="Link" Required="TRUE" Name="RPLink" Format="Hyperlink" />
+      <FieldRef ID="{6fde3063-efc6-44bb-b6ad-76e5a28118ce}" DisplayName="RP First Date" Required="TRUE" Name="RPFirstDate" />
+      <FieldRef ID="{1027e148-d29e-4dcb-aaab-d1cd9737ad28}" DisplayName="RP Last Date" Required="FALSE" Name="RPLastDate" />
+      <FieldRef ID="{71fccc77-2836-4943-ab77-059a3ec82af6}" DisplayName="RP Types" Required="FALSE" Name="RPTypes" />
+      <FieldRef ID="{b22b38fc-fe33-44b1-a357-202678d53669}" DisplayName="RP Status" Required="FALSE" Name="RPStatus" />
+      <FieldRef ID="{4e67d310-74d0-49cb-b1bc-3c488bdada75}" DisplayName="RP Roles" Required="FALSE" Name="RPRoles" />
+      <FieldRef ID="{50981785-e8b4-4ad3-adba-5af3245b8429}" DisplayName="RP Actors" Required="FALSE" Name="RPActors" />
+      <FieldRef ID="{4e39a006-6e1a-419e-808c-fe802896b73c}" DisplayName="RP Confidential" Required="FALSE" Name="RPConfidential" />
+      <FieldRef ID="{93d18f26-4268-4887-b26f-570453e6c484}" DisplayName="RP Created By" Required="FALSE" Name="RPCreatedBy" />
+      <FieldRef ID="{be97db83-0882-4b55-864a-e2c99cceae46}" DisplayName="RP Free Text" Required="FALSE" Name="RPFreeText" />
+      <FieldRef ID="{1d683270-533b-4865-b5ee-b52f431e11ab}" DisplayName="RP Author" Required="FALSE" Name="RPAuthor" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

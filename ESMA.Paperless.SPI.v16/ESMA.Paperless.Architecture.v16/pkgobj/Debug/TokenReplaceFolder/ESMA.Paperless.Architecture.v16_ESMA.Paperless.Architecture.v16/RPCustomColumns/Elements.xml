@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{918d0459-10f2-4dff-902e-503b43c38499}"
+       Name="RPCustomColumns"
+       DisplayName="RP Custom Columns"
+       StaticName="RPCustomColumns"
+       Type="Note"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       NumLines="6"
+       RichText="FALSE"
+       Sortable="FALSE"   
+       RestrictedMode="TRUE"
+       RichTextMode="Compatible"
+       IsolateStyles="FALSE"
+       AppendOnly="FALSE"       
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

@@ -1,0 +1,315 @@
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ESMA.Paperless.FileUploaderVisor.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ESMA.Paperless.FileUploaderVisor.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\AppManifest.xaml
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ESMA.Paperless.FileUploaderVisor.v15.xap
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ESMA.Paperless.FileUploaderVisor.v15TestPage.html
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\Microsoft.SharePoint.Client.Silverlight.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\Microsoft.SharePoint.Client.Silverlight.Runtime.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Controls.Data.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Controls.Data.Input.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Xml.Linq.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Data.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\en-us\Microsoft.SharePoint.Client.Silverlight.Runtime.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.csprojResolveAssemblyReference.cache
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\App.g.cs
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\MainPage.g.cs
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.g.resources
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\XapCacheFile.xml
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ESMA.Paperless.FileUploaderVisor.v15.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ESMA.Paperless.FileUploaderVisor.v15.pdb
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\AppManifest.xaml
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ESMA.Paperless.FileUploaderVisor.v15.xap
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ESMA.Paperless.FileUploaderVisor.v15TestPage.html
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Controls.Data.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Controls.Data.Input.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Xml.Linq.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Data.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Controls.Data.xml
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Controls.Data.Input.xml
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Xml.Linq.xml
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\System.Windows.Data.xml
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\en-us\Microsoft.SharePoint.Client.Silverlight.Runtime.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\de\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\es\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\fr\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\it\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ja\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ko\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\ru\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.csprojAssemblyReference.cache
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\App.g.cs
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\MainPage.g.cs
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.g.resources
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.csproj.CoreCompileInputs.cache
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.csproj.CopyComplete
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.dll
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\ESMA.Paperless.FileUploaderVisor.v15.pdb
+E:\SOFT\Paperless Source Code\ESMA.Paperless.SPI.v16\ESMA.Paperless.FileUploaderVisor.v15\obj\Debug\XapCacheFile.xml

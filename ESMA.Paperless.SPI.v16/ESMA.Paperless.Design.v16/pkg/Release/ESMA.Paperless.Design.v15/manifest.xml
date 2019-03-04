@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="77b3f73d-95a3-453d-a396-3314cdd1f9e5" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ESMA.Paperless.Design.v15.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\css\chosen-sprite.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\css\chosen.min.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\css\prism.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\css\RSComun.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\css\RSGridStyles.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\css\RSReportsStyles.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\css\RSSearcherStyles.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\css\RSStyles.css" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\banner.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSAdd.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSArrowLeftDark.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSArrowLeftLight.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSArrowRightDark.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSArrowRightLight.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSBackgroundTitle.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSButtonBlue.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSButtonBlueLittle.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSClock.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSConfidential.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\rsemail.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSIconClose.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSloading.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSMinus.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSPlus.gif" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSPreview.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSPrinter.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSRejected.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSTabBackground.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSTabBackground_big.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\images\RSwarning.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\js\chosen.jquery.min.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\js\CR24Code.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\js\jquery-1.9.1.min.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\js\prism.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\js\RSJavascript.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\js\RSJavascript_gsa.js" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\RSErrorTemplates\img\go-back.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\RSErrorTemplates\img\RSwarning.png" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\RSErrorTemplates\message.htm" />
+    <TemplateFile Location="Layouts\ESMA.Paperless.Design.v15\RSErrorTemplates\styles.css" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ESMA.Paperless.Design.v15_ESMA.Paperless.Design.v15\Feature.xml" />
+  </FeatureManifests>
+</Solution>

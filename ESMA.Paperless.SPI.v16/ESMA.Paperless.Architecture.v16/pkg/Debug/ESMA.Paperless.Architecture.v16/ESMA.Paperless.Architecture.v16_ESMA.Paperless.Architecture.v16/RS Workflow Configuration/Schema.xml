@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RS Workflow Configuration" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RSArchitecture-WorkflowConfiguration" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x010054593AB156A8467A9B03078D01BF890A">
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field Type="Choice" ID="{dafec69a-1c5b-40e6-af5b-6cef4add652c}" DisplayName="Workflow Category" Name="WFCategory" StaticName="WFCategory" FillInChoice="FALSE" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="TRUE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+        <Default>Other Workflows</Default>
+        <CHOICES>
+          <CHOICE>Budget management</CHOICE>
+          <CHOICE>Contracts &amp; Commitments</CHOICE>
+          <CHOICE>Human Resources</CHOICE>
+          <CHOICE>Payments</CHOICE>
+          <CHOICE>Procurement</CHOICE>
+          <CHOICE>Other Workflows</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field Type="Number" ID="{1ce3da8c-90f8-4dbe-b8ab-f5de4ba6f348}" Name="WFOrder" StaticName="WFOrder" DisplayName="Workflow Order" Commas="FALSE" Min="0" Decimals="0" Required="TRUE" EnforceUniqueValues="TRUE" Indexed="TRUE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="User" ID="{c1630744-ded4-4c64-aeed-adee90ffb663}" Name="WFGroup" StaticName="WFGroup" DisplayName="Workflow Group" List="UserInfo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sortable="FALSE" Filterable="TRUE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" Mult="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="Text" ID="{e435ee86-70a8-4d50-9253-d2a6737a31e2}" Name="WFLibraryURL" StaticName="WFLibraryURL" DisplayName="Workflow Library URL" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" AllowDeletion="FALSE" MaxLength="255" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="Text" ID="{f09ca57f-256d-4c4c-a12c-07b5b64fe75f}" Name="WFLogURL" StaticName="WFLogURL" DisplayName="Workflow Log URL" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" AllowDeletion="FALSE" MaxLength="255" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{c79e227d-1c9c-4417-a2d0-13a4bd18d1b2}" Name="WFFieldsToAdd" DisplayName="Fields to Add" StaticName="WFFieldsToAdd" Type="LookupMulti" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Mult="TRUE" ShowField="Title" List="Lists/WFGeneralFields" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{716b8716-67a0-48b3-9f70-52a87669deb0}" Name="WFEnabled" DisplayName="Workflow Enabled" StaticName="WFEnabled" Type="Boolean" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{054ac0ae-3314-4169-9f27-1fe1c3c93675}" Name="DocumentationType" DisplayName="Documentation Type" StaticName="DocumentationType" Type="Choice" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ShowInNewForm="TRUE" ShowInEditForm="TRUE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafep}">
+        <Default>(Empty)</Default>
+        <CHOICES>
+          <CHOICE>(Empty)</CHOICE>
+          <CHOICE>Main</CHOICE>
+          <CHOICE>ABAC</CHOICE>
+          <CHOICE>Supporting</CHOICE>
+          <CHOICE>To be signed on paper</CHOICE>
+          <CHOICE>Paper signed docs</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{16cbce84-7dcc-4676-89c2-39c53cbc954e}" Name="ConfidentialWorkflow" DisplayName="Restricted Workflow" StaticName="ConfidentialWorkflow" Type="Choice" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="RS Columns" SourceID="{2ddd1d3e-5e1c-4b8b-991a-3897943e2576}">
+        <Default>-- No Restriction Selected --</Default>
+        <CHOICES>
+          <CHOICE>Non Restricted</CHOICE>
+          <CHOICE>Restricted</CHOICE>
+          <CHOICE>-- No Restriction Selected --</CHOICE>
+        </CHOICES>
+      </Field>
+    </Fields>
+    <Views>      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">50</RowLimit>
+        <ViewFields>
+          <FieldRef Name="WFEnabled" />
+          <FieldRef Name="WFOrder" />
+          <FieldRef Name="LinkTitleNoMenu" />
+          <FieldRef Name="WFGroup" />
+          <FieldRef Name="WFLibraryURL" />
+          <FieldRef Name="WFLogURL" />
+          <FieldRef Name="WFFieldsToAdd" />
+          <FieldRef Name="DocumentationType" />
+      </ViewFields>
+        <Query>
+          <GroupBy Collapse="FALSE" GroupLimit="50">
+            <FieldRef Name="WFCategory"></FieldRef>
+          </GroupBy>
+          <OrderBy>
+          <FieldRef Name="WFOrder" Ascending="TRUE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">50</RowLimit>
+        <ViewFields>
+          <FieldRef Name="WFEnabled" />
+          <FieldRef Name="WFOrder" />
+          <FieldRef Name="LinkTitleNoMenu" />
+          <FieldRef Name="WFGroup" />
+          <FieldRef Name="WFLibraryURL" />
+          <FieldRef Name="WFLogURL" />
+          <FieldRef Name="WFFieldsToAdd" />
+          <FieldRef Name="DocumentationType" />
+        </ViewFields>
+        <Query>
+          <GroupBy Collapse="FALSE" GroupLimit="50">
+          <FieldRef Name="WFCategory">
+            </FieldRef></GroupBy>
+          <OrderBy>            
+          <FieldRef Name="WFOrder" Ascending="TRUE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

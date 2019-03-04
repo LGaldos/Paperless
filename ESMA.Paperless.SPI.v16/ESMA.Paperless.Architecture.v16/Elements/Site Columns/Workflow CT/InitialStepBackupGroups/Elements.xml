@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Note"
+       ID="{d2180ef9-5084-4504-b792-8fd1e5405e67}"
+       Name="InitialStepBackupGroups"
+       StaticName="InitialStepBackupGroups"
+       DisplayName="Initial Step Backup Groups"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       NumLines="30"
+       Sortable="FALSE"
+       RichText="FALSE"
+       RestrictedMode="TRUE"
+       RichTextMode="Compatible"
+       IsolateStyles="FALSE"
+       AppendOnly="FALSE"
+       UnlimitedLengthInDocumentLibrary="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

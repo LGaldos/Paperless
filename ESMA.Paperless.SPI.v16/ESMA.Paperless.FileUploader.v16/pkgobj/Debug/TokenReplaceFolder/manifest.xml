@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f9086373-4feb-4662-963a-ea11bef1ddc0" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ESMA.Paperless.FileUploader.v16.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ESMA.Paperless.FileUploader.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=82c286ae8c4738cd" Namespace="ESMA.Paperless.FileUploader.v16.RSWorkflowFileUploader" TypeName="*" SafeAgainstScript="True" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.FileUploader.v16\RSWorkflowFileUploader\RSWorkflowFileUploaderUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ESMA.Paperless.FileUploader.v16_ESMA.Paperless.FileUploader.v16\Feature.xml" />
+  </FeatureManifests>
+</Solution>

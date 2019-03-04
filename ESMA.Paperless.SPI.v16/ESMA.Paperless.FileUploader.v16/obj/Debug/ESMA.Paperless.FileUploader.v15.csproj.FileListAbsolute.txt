@@ -1,0 +1,5 @@
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploader.v15\obj\Debug\ESMA.Paperless.FileUploader.v15.csprojResolveAssemblyReference.cache
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploader.v15\bin\Debug\ESMA.Paperless.FileUploader.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploader.v15\bin\Debug\ESMA.Paperless.FileUploader.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploader.v15\obj\Debug\ESMA.Paperless.FileUploader.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.FileUploader.v15\obj\Debug\ESMA.Paperless.FileUploader.v15.pdb

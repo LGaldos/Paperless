@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d786daf6-2233-48dc-b8fe-b872081bdf6c}"
+       Name="ActionDetails"
+       DisplayName="Action Details"
+       StaticName="ActionDetails"
+       Type="Text"
+       Required="TRUE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       MaxLength="255"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="21157c19-2050-44bc-9707-d33c42a9555d" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="ESMA.Paperless.Architecture.v16.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ESMA.Paperless.Architecture.v16_ESMA.Paperless.Architecture.v16\Feature.xml" />
+  </FeatureManifests>
+</Solution>

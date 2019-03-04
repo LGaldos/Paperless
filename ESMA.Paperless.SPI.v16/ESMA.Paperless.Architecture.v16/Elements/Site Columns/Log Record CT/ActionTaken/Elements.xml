@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{aa425cf1-7241-4add-babc-893aa273d1d7}"
+       Name="ActionTaken"
+       DisplayName="Action Taken"
+       StaticName="ActionTaken"
+       Type="Choice"
+       Required="TRUE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Format="Dropdown"
+       FillInChoice="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+    <Default>Signed</Default>
+    <CHOICES>
+      <CHOICE>Actor re-assigned</CHOICE>
+      <CHOICE>Cancelled</CHOICE>
+      <CHOICE>Commented</CHOICE>
+      <CHOICE>Commented Closed</CHOICE>
+      <CHOICE>Deleted</CHOICE>
+      <CHOICE>Document removed</CHOICE>
+      <CHOICE>Document moved</CHOICE>
+      <CHOICE>Field changed</CHOICE>
+      <CHOICE>Finished</CHOICE>
+      <CHOICE>Launched</CHOICE>
+      <CHOICE>Document uploaded</CHOICE>
+      <CHOICE>New document version</CHOICE>
+      <CHOICE>Rejected</CHOICE>
+      <CHOICE>Restriction changed</CHOICE>
+      <CHOICE>Saved</CHOICE>
+      <CHOICE>Signed</CHOICE>
+      <CHOICE>Put On Hold</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

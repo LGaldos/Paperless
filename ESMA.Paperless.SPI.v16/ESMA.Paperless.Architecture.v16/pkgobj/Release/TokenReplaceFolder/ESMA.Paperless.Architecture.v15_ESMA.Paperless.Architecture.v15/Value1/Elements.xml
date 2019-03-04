@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Text"
+       ID="{5778112a-f0b6-4a37-acb3-2d2bac19eb41}"
+       Name="Value1"
+       StaticName="Value1"
+       DisplayName="Value"
+       Required="TRUE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Sealed ="FALSE"
+       Sortable="TRUE"
+       Filterable  ="TRUE"
+       AllowDeletion ="FALSE"
+       MaxLength="255"
+       ShowInEditForm="FALSE"
+       ShowInNewForm="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

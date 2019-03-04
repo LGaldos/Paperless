@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="User"
+       ID="{47843ca1-806e-4aa8-ab75-562acd1331d3}"
+       Name="DefaultActor"
+       StaticName="DefaultActor"
+       DisplayName="Default Actor"
+       List="UserInfo"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Sortable="FALSE"
+         Filterable  ="TRUE"
+         ShowField="ImnName"
+         UserSelectionMode="PeopleAndGroups"
+         UserSelectionScope="0"
+         Mult="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

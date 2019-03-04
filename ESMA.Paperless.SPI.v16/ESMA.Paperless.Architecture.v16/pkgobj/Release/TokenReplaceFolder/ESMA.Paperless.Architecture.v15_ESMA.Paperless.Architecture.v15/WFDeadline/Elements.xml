@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1a106892-8c1a-4c68-b216-c8f804dd266e}"
+       Name="WFDeadline"
+       DisplayName="Workflow Deadline"
+       StaticName="WFDeadline"
+       Type="DateTime"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Format="DateOnly"
+       CalType="0"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

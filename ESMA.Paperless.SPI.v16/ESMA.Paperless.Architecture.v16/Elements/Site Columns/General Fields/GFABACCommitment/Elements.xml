@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ae1265c4-eeca-4402-8bb5-a3fca01e4c1a}"
+       Name="GFABACCommitment"
+       DisplayName="ABAC Commitment"
+       Type="Text"
+        Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       MaxLength="255"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

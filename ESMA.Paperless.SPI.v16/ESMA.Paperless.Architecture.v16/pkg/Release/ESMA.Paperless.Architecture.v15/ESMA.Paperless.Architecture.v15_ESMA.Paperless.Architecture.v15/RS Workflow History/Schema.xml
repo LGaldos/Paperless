@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RS Workflow History" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RSArchitecture-WorkflowHistory" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x0100E263B0F030014026A0541093D7AC2FDF">
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{41d2036b-433e-4ca8-8472-520343e00da6}" Name="WFID" DisplayName="Workflow ID" StaticName="WFID" Type="Number" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Percentage="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{74cd0bf9-5202-4d98-8b4d-c92d410730b1}" Name="WFLink" DisplayName="Link" StaticName="WFLink" Type="URL" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Hyperlink" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{0bac0e69-193a-4e99-9837-ae8bbd11c19c}" Name="WFSubject" DisplayName="Workflow Subject" StaticName="WFSubject" Type="Text" Required="FALSE" MaxLength="255" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{ef914ea7-ea38-425f-88ac-f99ad5021d11}" Name="Amount" DisplayName="Amount" StaticName="Amount" Type="Text" Required="FALSE" MaxLength="255" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{eb1628cd-12af-470e-95e9-514c75529863}" Name="WFStatus" DisplayName="Workflow Status" StaticName="WFStatus" Type="Choice" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+        <Default>Draft</Default>
+        <CHOICES>
+          <CHOICE>Closed</CHOICE>
+          <CHOICE>Deleted</CHOICE>
+          <CHOICE>Draft</CHOICE>
+          <CHOICE>In Progress</CHOICE>
+          <CHOICE>Rejected</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{eb326f0e-de05-453d-a796-fbe958cb491b}" Name="WFType" DisplayName="Workflow Type" StaticName="WFType" Type="Text" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafee}"></Field>
+      <Field ID="{80874deb-b9b7-41df-8f09-e9dfafcaf5aa}" Name="AssignedPerson" DisplayName="Assigned Person" StaticName="AssignedPerson" Type="User" Required="FALSE" List="UserInfo" EnforceUniqueValues="FALSE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{e2d02368-b311-484f-8fbf-fffe129a34d5}" Name="InitiatedBy" DisplayName="Initiated By" StaticName="InitiatedBy" Type="User" List="UserInfo" Required="TRUE" EnforceUniqueValues="FALSE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{3cbca38c-b053-4210-914d-060e14312ff2}" Name="Urgent" DisplayName="Urgent" StaticName="Urgent" Type="Boolean" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{1a106892-8c1a-4c68-b216-c8f804dd266e}" Name="WFDeadline" DisplayName="Workflow Deadline" StaticName="WFDeadline" Type="DateTime" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" CalType="0" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{16cbce84-7dcc-4676-89c2-39c53cbc954e}" Name="ConfidentialWorkflow" DisplayName="Confidential Workflow" StaticName="ConfidentialWorkflow" Type="Choice" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="RS Columns" SourceID="{2ddd1d3e-5e1c-4b8b-991a-3897943e2576}">
+        <Default>Non Confidential</Default>
+        <CHOICES>
+          <CHOICE>Non Confidential</CHOICE>
+          <CHOICE>Confidential</CHOICE>
+          <CHOICE>Confidential until closed</CHOICE>
+          <CHOICE>Group Confidential</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{27f26b59-7f95-479a-953e-a2f52ef2ae25}" Name="Rejection" DisplayName="Rejection" StaticName="Rejection" Type="URL" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Image" Group="RS Columns" SourceID="{561d1082-e3ff-40bc-bacf-dcce0ebc5dd7}"></Field>
+      <Field ID="{6fae9b5f-5af3-42f3-9e81-a738ecd485cb}" Name="ConfidentialCheck" DisplayName="Confidential" StaticName="ConfidentialCheck" Type="URL" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Image" Group="RS Columns" SourceID="{15608141-ad0d-433f-b70f-63c3fc01cab3}"></Field>
+      <Field ID="{f18b70ac-d6fc-4f5a-8c94-cc9bd3a1f8f9}" Name="AllActorsSign" DisplayName="All Actors Sign" StaticName="AllActorsSign" Type="Note" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="FALSE" Sortable="FALSE" Group="RS Columns" SourceID="{dec8b2e4-e54f-485a-a24a-f5af2227497c}"></Field>
+      <Field Type="Text" DisplayName="Days To Close" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" ID="{d6f073ee-acf8-487c-b515-5dd7fbab6122}" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}" StaticName="DaysToClose" Name="DaysToClose"></Field>
+      <Field Type="Number" ID="{7973d9cb-3ffe-4a47-af1e-0d94283bc293}" Name="StepNumber" StaticName="StepNumber" DisplayName="Step Number" Commas="FALSE" Min="1" Decimals="0" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+    </Fields>
+    <Views>
+
+
+
+
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+          <FieldRef Name="WFID" />
+          <FieldRef Name="WFLink" />
+          <FieldRef Name="WFSubject" />
+          <FieldRef Name="Amount" />
+          <FieldRef Name="Rejection" />
+          <FieldRef Name="WFStatus" />
+          <FieldRef Name="ConfidentialCheck" />
+          <FieldRef Name="WFType" />
+          <FieldRef Name="Created" />
+          <FieldRef Name="Author" />
+          <FieldRef Name="AssignedPerson" />
+          <FieldRef Name="Urgent" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+            <FieldRef Name="Urgent" Ascending="FALSE">
+            </FieldRef>
+            <FieldRef Name="WFID" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+          <FieldRef Name="WFID" />
+          <FieldRef Name="WFLink" />
+          <FieldRef Name="WFSubject" />
+          <FieldRef Name="Amount" />
+          <FieldRef Name="Rejection" />
+          <FieldRef Name="WFStatus" />
+          <FieldRef Name="ConfidentialCheck" />
+          <FieldRef Name="WFType" />
+          <FieldRef Name="Created" />
+          <FieldRef Name="Author" />
+          <FieldRef Name="AssignedPerson" />
+          <FieldRef Name="Urgent" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+            <FieldRef Name="Urgent" Ascending="FALSE">
+            </FieldRef>
+            <FieldRef Name="WFID" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="2" Type="HTML" WebPartZoneID="Main" DisplayName="WFs to be Signed" DefaultView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ToBeSigned.aspx" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+          <FieldRef Name="WFID" />
+          <FieldRef Name="WFLink" />
+          <FieldRef Name="WFSubject" />
+          <FieldRef Name="Amount" />
+          <FieldRef Name="Rejection" />
+          <FieldRef Name="WFStatus" />
+          <FieldRef Name="WFType" />
+          <FieldRef Name="Created" />
+          <FieldRef Name="Urgent" />
+          <FieldRef Name="WFDeadline" />
+          <FieldRef Name="ConfidentialCheck" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+            <FieldRef Name="Urgent" Ascending="FALSE">
+            </FieldRef>
+            <FieldRef Name="WFID" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+          <Where>
+            <Eq>
+              <FieldRef Name="AssignedPerson" />
+              <Value Type="Integer">
+                <UserID />
+              </Value>
+            </Eq>
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="3" Type="HTML" WebPartZoneID="Main" DisplayName="Status of Initiated WFs" DefaultView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="statusInitiatedWFs.aspx" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+          <FieldRef Name="WFID" />
+          <FieldRef Name="WFLink" />
+          <FieldRef Name="WFSubject" />
+          <FieldRef Name="Amount" />
+          <FieldRef Name="Rejection" />
+          <FieldRef Name="WFStatus" />
+          <FieldRef Name="WFType" />
+          <FieldRef Name="AssignedPerson" />
+          <FieldRef Name="Urgent" />
+          <FieldRef Name="ConfidentialCheck" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+            <FieldRef Name="Urgent" Ascending="FALSE">
+            </FieldRef>
+            <FieldRef Name="WFID" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+          <Where>
+            <And>
+              <Eq>
+                <FieldRef Name="Editor" />
+                <Value Type="Integer">
+                  <UserID />
+                </Value>
+              </Eq>
+              <And>
+                <Neq>
+                  <FieldRef Name="WFStatus" />
+                  <Value Type="Choice">Closed</Value>
+                </Neq>
+                <And>
+                  <Neq>
+                    <FieldRef Name="WFStatus" />
+                    <Value Type="Choice">Deleted</Value>
+                  </Neq>
+                  <Neq>
+                    <FieldRef Name="WFStatus" />
+                    <Value Type="Choice">Draft</Value>
+                  </Neq>
+                </And>
+              </And>
+            </And>
+          </Where>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

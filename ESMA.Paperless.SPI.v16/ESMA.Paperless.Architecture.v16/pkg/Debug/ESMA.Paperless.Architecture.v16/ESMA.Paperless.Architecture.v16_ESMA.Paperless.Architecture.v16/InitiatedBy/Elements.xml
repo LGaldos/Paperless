@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e2d02368-b311-484f-8fbf-fffe129a34d5}"
+       Name="InitiatedBy"
+       DisplayName="Initiated By"
+       StaticName="InitiatedBy"
+       Type="User"
+       List="UserInfo"
+       Required="TRUE"
+       EnforceUniqueValues="FALSE"
+       ShowField="ImnName"
+       UserSelectionMode="PeopleAndGroups"
+       UserSelectionScope="0"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

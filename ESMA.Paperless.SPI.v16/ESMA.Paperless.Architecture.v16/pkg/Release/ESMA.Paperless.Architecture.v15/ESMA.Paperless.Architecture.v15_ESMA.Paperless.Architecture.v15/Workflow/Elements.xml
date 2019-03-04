@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100F210CF1C612646CDA023709F7D66A471" Name="Workflow" Group="RS Content Types" Description="Workflow" Inherits="TRUE" Version="0" Hidden="TRUE">
+    <FieldRefs>
+      <FieldRef ID="{41d2036b-433e-4ca8-8472-520343e00da6}" DisplayName="Workflow ID" Required="TRUE" Name="WFID" />
+      <FieldRef ID="{74cd0bf9-5202-4d98-8b4d-c92d410730b1}" DisplayName="Link" Required="TRUE" Name="WFLink" Format="Hyperlink" />
+      <FieldRef ID="{7973d9cb-3ffe-4a47-af1e-0d94283bc293}" DisplayName="Step Number" Required="TRUE" Name="StepNumber" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{eb1628cd-12af-470e-95e9-514c75529863}" DisplayName="Workflow Status" Required="TRUE" Name="WFStatus" Format="Dropdown" />
+      <FieldRef ID="{3cbca38c-b053-4210-914d-060e14312ff2}" DisplayName="Urgent" Name="Urgent" />
+      <FieldRef ID="{eb326f0e-de05-453d-a796-fbe958cb491b}" DisplayName="Workflow Type" Required="TRUE" Name="WFType" />
+      <FieldRef ID="{80874deb-b9b7-41df-8f09-e9dfafcaf5aa}" DisplayName="Assigned Person" Required="FALSE" Name="AssignedPerson" />
+      <FieldRef ID="{0bac0e69-193a-4e99-9837-ae8bbd11c19c}" DisplayName="Workflow Subject" Required="FALSE" Name="WFSubject" />
+      <FieldRef ID="{ef914ea7-ea38-425f-88ac-f99ad5021d11}" DisplayName="Amount" Required="FALSE" Name="Amount" />
+      <FieldRef ID="{1a106892-8c1a-4c68-b216-c8f804dd266e}" DisplayName="Workflow Deadline" Required="FALSE" Name="WFDeadline" Format="DateOnly" />
+      <FieldRef ID="{16cbce84-7dcc-4676-89c2-39c53cbc954e}" DisplayName="Confidential Workflow" Required="TRUE" Name="ConfidentialWorkflow" Format="Dropdown" />
+      <FieldRef ID="{99376aa3-6626-42be-8835-227c15656f55}" DisplayName="Initial Steps" Required="FALSE" Name="InitialSteps" NumLines="30" Sortable="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+      <FieldRef ID="{824bdadc-7288-4a8a-901e-03a95e3c9a4e}" DisplayName="Other Initial Data" Required="FALSE" Name="OtherInitialData" NumLines="30" Sortable="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+      <FieldRef ID="{9cffe9c6-0ca1-49dc-a4ea-4c5fc71fd951}" DisplayName="Initial Step Descriptions" Required="FALSE" Name="InitialStepDescriptions" NumLines="30" Sortable="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+      <FieldRef ID="{446ba324-0f0e-493c-836f-c018f78aab2c}" DisplayName="Initial Electronic Stamps" Required="FALSE" Name="InitialElectronicStamps" NumLines="30" Sortable="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+      <FieldRef ID="{dba68ad0-9311-49c2-b94c-40be419c9559}" DisplayName="Initial General Fields" Required="FALSE" Name="InitialGeneralFields" NumLines="30" Sortable="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+      <FieldRef ID="{d279a711-efcb-439a-8fed-c088fb1ede83}" DisplayName="Link To Workflow" Required="FALSE" Description="Link to workflow field" Name="LinkToWorkflow" NumLines="6" Sortable="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+      <FieldRef ID="{a27c491a-f25b-4d61-b5fd-0b38e6b1aa2f}" DisplayName="Actors Signed Role" Required="FALSE" Name="WFActorsSignedRole" NumLines="30" Sortable="FALSE" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

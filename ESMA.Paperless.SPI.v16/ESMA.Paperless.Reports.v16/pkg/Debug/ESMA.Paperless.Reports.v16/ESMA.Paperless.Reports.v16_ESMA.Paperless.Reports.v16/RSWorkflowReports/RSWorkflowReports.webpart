@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ESMA.Paperless.Reports.v16.RSWorkflowReports.RSWorkflowReports, ESMA.Paperless.Reports.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=18a60af8a64a6d12" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">RS Workflow Reports</property>
+        <property name="Description" type="string">Web Part for Report Generation in Routing Slip Workflow System. (v.2.0.0)</property>
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

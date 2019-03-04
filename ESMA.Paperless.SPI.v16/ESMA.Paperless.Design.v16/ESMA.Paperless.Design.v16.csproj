@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{630E70B4-416F-447D-8D85-09367F1962F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESMA.Paperless.Design.v16</RootNamespace>
+    <AssemblyName>ESMA.Paperless.Design.v16</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Elements\FeatureActivation\DesignModule.cs" />
+    <Compile Include="Features\ESMA.Paperless.Design.v16\ESMA.Paperless.Design.v16.EventReceiver.cs">
+      <DependentUpon>ESMA.Paperless.Design.v16.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Elements\MasterPage\RS.v16.master" />
+    <None Include="Elements\MasterPage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5850ef14-bf46-4d60-a3ef-74503600bd52}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\ESMA.Paperless.Design.v16\ESMA.Paperless.Design.v16.feature">
+      <FeatureId>{41fb40fb-540a-4a7e-9e2e-210b186a5062}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9b22a804-1dff-408b-9fd9-d503c8c60af7}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{77b3f73d-95a3-453d-a396-3314cdd1f9e5}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Elements\MasterPage\Elements.xml" />
+    <Content Include="Features\ESMA.Paperless.Design.v16\ESMA.Paperless.Design.v16.Template.xml">
+      <DependentUpon>ESMA.Paperless.Design.v16.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\chosen-sprite.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\chosen.min.css" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_444444_256x240.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_555555_256x240.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_777620_256x240.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_777777_256x240.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\jquery-ui.min.css" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\prism.css" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\RSComun.css" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\RSGridStyles.css" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\RSReportsStyles.css" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\RSSearcherStyles.css" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\css\RSStyles.css" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\banner.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSAdd.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSArrowLeftDark.gif" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSArrowLeftLight.gif" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSArrowRightDark.gif" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSArrowRightLight.gif" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSBackgroundTitle.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSButtonBlue.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSButtonBlueLittle.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSClock.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSConfidential.gif" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\rsemail.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSIconClose.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSloading.gif" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSMinus.gif" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSPlus.gif" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSPreview.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSPrinter.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSRejected.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSTabBackground.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSTabBackground_big.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\images\RSwarning.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\js\chosen.jquery.min.js" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\js\CR24Code.js" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\js\jquery-1.9.1.min.js" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\js\jquery-ui.min.js" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\js\prism.js" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\js\RSJavascript.js" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\js\RSJavascript_gsa.js" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\RSErrorTemplates\img\go-back.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\RSErrorTemplates\img\RSwarning.png" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\RSErrorTemplates\message.htm" />
+    <Content Include="Layouts\ESMA.Paperless.Design.v16\RSErrorTemplates\styles.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

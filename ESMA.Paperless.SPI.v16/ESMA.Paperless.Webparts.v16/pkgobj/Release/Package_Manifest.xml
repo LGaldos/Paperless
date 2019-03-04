@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ac5e67b9-b289-450c-bc6a-b16a48c36fe6" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="ESMA.Paperless.Webparts.v16.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ESMA.Paperless.Webparts.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ca9af153a3279a1" Namespace="ESMA.Paperless.Webparts.v16.RSWorkflowInitiation" TypeName="*" SafeAgainstScript="True" />
+        <SafeControl Assembly="ESMA.Paperless.Webparts.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ca9af153a3279a1" Namespace="ESMA.Paperless.Webparts.v16.RSWorkflow" TypeName="*" SafeAgainstScript="True" />
+        <SafeControl Assembly="ESMA.Paperless.Webparts.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ca9af153a3279a1" Namespace="ESMA.Paperless.Webparts.v16.RSWorkflowAdvancedSearch" TypeName="*" />
+        <SafeControl Assembly="ESMA.Paperless.Webparts.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ca9af153a3279a1" Namespace="ESMA.Paperless.Webparts.v16.RSWorkflowViewStatusInitiated" TypeName="*" SafeAgainstScript="True" />
+        <SafeControl Assembly="ESMA.Paperless.Webparts.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ca9af153a3279a1" Namespace="ESMA.Paperless.Webparts.v16.RSWorkflowViewToBeSigned" TypeName="*" SafeAgainstScript="True" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Webparts.v16\RSWorkflowInitiation\RSWorkflowInitiationUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Webparts.v16\RSWorkflow\RSWorkflowUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Webparts.v16\RSWorkflowAdvancedSearch\RSWorkflowAdvancedSearchUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Webparts.v16\RSWorkflowViewStatusInitiated\RSWorkflowViewStatusInitiatedUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Webparts.v16\RSWorkflowViewToBeSigned\RSWorkflowViewToBeSignedUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ESMA.Paperless.Webparts.v16_ESMA.Paperless.Webparts.v16\Feature.xml" />
+  </FeatureManifests>
+</Solution>

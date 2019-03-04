@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{28a84fc8-710d-4a1e-a772-9ea8a2787561}"
+       Name="VacancyNo"
+       DisplayName="Vacancy Number"
+       Type="Text"
+       Required="FALSE"
+       Group="RS Columns">
+  </Field>
+</Elements>

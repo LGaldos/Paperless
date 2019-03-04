@@ -1,0 +1,8 @@
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\bin\Release\ESMA.Paperless.PrintProcess.v15.exe.config
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\bin\Release\ESMA.Paperless.PrintProcess.v15.exe
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\bin\Release\ESMA.Paperless.PrintProcess.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\bin\Release\itextsharp.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\bin\Release\PdfSharp.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\obj\Release\ESMA.Paperless.PrintProcess.v15.csprojResolveAssemblyReference.cache
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\obj\Release\ESMA.Paperless.PrintProcess.v15.exe
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.PrintProcess.v15\obj\Release\ESMA.Paperless.PrintProcess.v15.pdb

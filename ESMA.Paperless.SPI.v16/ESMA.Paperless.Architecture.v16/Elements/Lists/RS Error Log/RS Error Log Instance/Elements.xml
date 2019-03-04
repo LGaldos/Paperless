@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Error Log"
+                OnQuickLaunch="TRUE"
+                TemplateType="908"
+                Url="Lists/ErrorLog"
+                Description="List to store system errors."></ListInstance>
+</Elements>

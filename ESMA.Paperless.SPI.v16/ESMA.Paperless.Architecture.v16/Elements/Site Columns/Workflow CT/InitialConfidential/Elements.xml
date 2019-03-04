@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{527c6f4d-23a3-4617-9b25-bc2d509976ac}"
+       Name="InitialConfidential"
+       DisplayName="Initial Confidential"
+       StaticName="InitialConfidential"
+       Type="Text"
+       Required="FALSE"
+       MaxLength="255"
+       EnforceUniqueValues="FALSE"       
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

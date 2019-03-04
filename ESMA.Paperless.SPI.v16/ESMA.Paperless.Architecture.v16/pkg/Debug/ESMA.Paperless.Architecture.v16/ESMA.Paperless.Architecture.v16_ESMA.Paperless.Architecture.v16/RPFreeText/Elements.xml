@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{be97db83-0882-4b55-864a-e2c99cceae46}"
+       Name="RPFreeText"
+       DisplayName="Report Free Text"
+       StaticName="RPFreeText"
+       Type="Text"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       MaxLength="255"
+       Group="RS Columns"
+       SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}">
+  </Field>
+</Elements>

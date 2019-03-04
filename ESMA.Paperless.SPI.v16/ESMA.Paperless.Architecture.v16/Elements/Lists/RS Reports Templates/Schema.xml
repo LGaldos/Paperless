@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RS Reports Templates" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RS Reports Templates" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+    <ContentType ID="0x0100b03f0ce152124b0eb88bba54f66b4291" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{6fde3063-efc6-44bb-b6ad-76e5a28118ce}" Name="RPFirstDate" /><FieldRef ID="{1027e148-d29e-4dcb-aaab-d1cd9737ad28}" Name="RPLastDate" /><FieldRef ID="{71fccc77-2836-4943-ab77-059a3ec82af6}" Name="RPTypes" /><FieldRef ID="{b22b38fc-fe33-44b1-a357-202678d53669}" Name="RPStatus" /><FieldRef ID="{4e67d310-74d0-49cb-b1bc-3c488bdada75}" Name="RPRoles" /><FieldRef ID="{50981785-e8b4-4ad3-adba-5af3245b8429}" Name="RPActors" /><FieldRef ID="{4e39a006-6e1a-419e-808c-fe802896b73c}" Name="RPConfidential" /><FieldRef ID="{93d18f26-4268-4887-b26f-570453e6c484}" Name="RPCreatedBy" /><FieldRef ID="{be97db83-0882-4b55-864a-e2c99cceae46}" Name="RPFreeText" /><FieldRef ID="{550bfb85-fb47-4a8a-bc40-5ace4c654bb5}" Name="RPShowSteps" /><FieldRef ID="{362d2339-3d62-403f-a5c4-6237b05a8b41}" Name="RPAutomatic" /><FieldRef ID="{9f0a058b-91a2-44d4-9284-611d2fd218aa}" Name="RPStartDate" /><FieldRef ID="{0e57d196-faa2-43da-ba46-e8bc63c175b2}" Name="RPEndDate" /><FieldRef ID="{e1dfe628-7e3d-4933-b03f-dc7a1d5d1e5f}" Name="RPFrecuency" /><FieldRef ID="{c95b46d0-6f2e-43b3-966f-62702565dfa1}" Name="RPRecipients" /><FieldRef ID="{0d9e34ce-0294-4d15-a49d-0023e99ce4c3}" Name="RPShareUsers" /><FieldRef ID="{0bb1f552-6000-4163-becd-dfe027386f8f}" Name="RPDateSend" /><FieldRef ID="{b5048806-383a-4c4e-b918-ed0a5ccc50dc}" Name="GFOpenAmountRAL" /><FieldRef ID="{67138afc-afae-4eab-b12f-cb35454a86e1}" Name="GFAmountCurrentYear" /><FieldRef ID="{0270d948-5b5c-4f97-9e59-398c66607f44}" Name="GFAmountNextYear" /><FieldRef ID="{14c02dac-f5e7-443f-a991-5872b81d05fa}" Name="GFAmountToCancel" /><FieldRef ID="{5aae3550-4c2a-4992-8b03-b035b0c6e3d8}" Name="GFJustification" /><FieldRef ID="{848af479-e837-47b2-9d37-1d569e202599}" Name="GFGLAccount" /><FieldRef ID="{b142ae13-b34a-44d9-94a0-b55fa31496c1}" Name="GFBudgetLine" /><FieldRef ID="{0bac0e69-193a-4e99-9837-ae8bbd11c19c}" Name="WFSubject" /><FieldRef ID="{3f2d3c1f-9842-413e-afca-b5b35b61cf05}" Name="GFPersonalFile" /></FieldRefs></ContentType><ContentTypeRef ID="0x0100F6E06A3677474124A00884C0B6A23B33">
+      </ContentTypeRef></ContentTypes>
+    <Fields>      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <Field ID="{6fde3063-efc6-44bb-b6ad-76e5a28118ce}" Name="RPFirstDate" DisplayName="Report First Date" StaticName="RPFirstDate" Type="Text" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{1027e148-d29e-4dcb-aaab-d1cd9737ad28}" Name="RPLastDate" DisplayName="Report Last Date" StaticName="RPLastDate" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{71fccc77-2836-4943-ab77-059a3ec82af6}" Name="RPTypes" DisplayName="Report Types" StaticName="RPTypes" Type="Note" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{b22b38fc-fe33-44b1-a357-202678d53669}" Name="RPStatus" DisplayName="Report Status" StaticName="RPStatus" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{4e67d310-74d0-49cb-b1bc-3c488bdada75}" Name="RPRoles" DisplayName="Report Roles" StaticName="RPRoles" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{50981785-e8b4-4ad3-adba-5af3245b8429}" Name="RPActors" DisplayName="Report Actors" StaticName="RPActors" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{4e39a006-6e1a-419e-808c-fe802896b73c}" Name="RPConfidential" DisplayName="Report Restricted" StaticName="RPConfidential" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{93d18f26-4268-4887-b26f-570453e6c484}" Name="RPCreatedBy" DisplayName="Report Created By" StaticName="RPCreatedBy" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{be97db83-0882-4b55-864a-e2c99cceae46}" Name="RPFreeText" DisplayName="Report Free Text" StaticName="RPFreeText" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{550bfb85-fb47-4a8a-bc40-5ace4c654bb5}" Name="RPShowSteps" DisplayName="Report Show Steps" StaticName="RPShowSteps" Type="Boolean" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"><Default>0</Default></Field><Field ID="{362d2339-3d62-403f-a5c4-6237b05a8b41}" Name="RPAutomatic" DisplayName="RP Automatic" StaticName="RPAutomatic" Type="Boolean" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"><Default>0</Default></Field><Field ID="{9f0a058b-91a2-44d4-9284-611d2fd218aa}" Name="RPStartDate" DisplayName="RP Start Date" StaticName="RPStartDate" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{0e57d196-faa2-43da-ba46-e8bc63c175b2}" Name="RPEndDate" DisplayName="RP End Date" StaticName="RPEndDate" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{e1dfe628-7e3d-4933-b03f-dc7a1d5d1e5f}" Name="RPFrecuency" DisplayName="RP Frequency" StaticName="RPFrecuency" Type="Choice" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"><Default>Daily</Default><CHOICES><CHOICE>Daily</CHOICE><CHOICE>Weekly</CHOICE><CHOICE>Monthly</CHOICE><CHOICE>Yearly</CHOICE></CHOICES></Field><Field ID="{c95b46d0-6f2e-43b3-966f-62702565dfa1}" Name="RPRecipients" DisplayName="RP Recipients" StaticName="RPRecipients" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{0d9e34ce-0294-4d15-a49d-0023e99ce4c3}" Name="RPShareUsers" DisplayName="RP Share Users" StaticName="RPShareUsers" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{0bb1f552-6000-4163-becd-dfe027386f8f}" Name="RPDateSend" DisplayName="RP Date Send" StaticName="RPDateSend" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field><Field ID="{b5048806-383a-4c4e-b918-ed0a5ccc50dc}" Name="GFOpenAmountRAL" DisplayName="Open Amount RAL" Type="Text" Required="FALSE" Group="RS Columns"></Field><Field ID="{67138afc-afae-4eab-b12f-cb35454a86e1}" Name="GFAmountCurrentYear" DisplayName="Amount Current Year" Type="Text" Required="FALSE" Group="RS Columns"></Field><Field ID="{0270d948-5b5c-4f97-9e59-398c66607f44}" Name="GFAmountNextYear" DisplayName="Amount Next Year" Type="Text" Required="FALSE" Group="RS Columns"></Field><Field ID="{14c02dac-f5e7-443f-a991-5872b81d05fa}" Name="GFAmountToCancel" DisplayName="Amount To Cancel" Type="Text" Required="FALSE" Group="RS Columns"></Field><Field DisplayName="Justification" Type="Note" Required="FALSE" ID="{5aae3550-4c2a-4992-8b03-b035b0c6e3d8}" SourceID="{8e1f39f3-52b2-40ba-bdcd-d25a7a330bb0}" StaticName="GFJustification" Name="GFJustification" Version="2" Group="RS Columns" RichText="FALSE" /><Field DisplayName="GL account" Type="Text" Required="FALSE" ID="{848af479-e837-47b2-9d37-1d569e202599}" SourceID="{8e1f39f3-52b2-40ba-bdcd-d25a7a330bb0}" StaticName="GFGLAccount" Name="GFGLAccount" Version="2" Group="RS Columns" /><Field DisplayName="Budget line" Type="Text" Required="FALSE" ID="{b142ae13-b34a-44d9-94a0-b55fa31496c1}" SourceID="{8e1f39f3-52b2-40ba-bdcd-d25a7a330bb0}" StaticName="GFBudgetLine" Name="GFBudgetLine" Version="2" Group="RS Columns" /><Field ID="{0bac0e69-193a-4e99-9837-ae8bbd11c19c}" Name="WFSubject" DisplayName="Workflow Subject" StaticName="WFSubject" Type="Text" Required="FALSE" MaxLength="255" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field><Field ID="{3f2d3c1f-9842-413e-afca-b5b35b61cf05}" Name="GFPersonalFile" DisplayName="Personal File" Type="Boolean" Required="FALSE" Group="RS Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="Title" /><FieldRef Name="RPFirstDate" /><FieldRef Name="RPLastDate" /><FieldRef Name="RPTypes" /><FieldRef Name="RPStatus" /><FieldRef Name="RPRoles" /><FieldRef Name="RPActors" /><FieldRef Name="RPConfidential" /><FieldRef Name="RPCreatedBy" /><FieldRef Name="RPFreeText" /><FieldRef Name="RPShowSteps" /><FieldRef Name="RPShareUsers" /><FieldRef Name="RPAutomatic" /><FieldRef Name="RPStartDate" /><FieldRef Name="RPEndDate" /><FieldRef Name="RPFrecuency" /><FieldRef Name="RPRecipients" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Created" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="Title" /><FieldRef Name="RPFirstDate" /><FieldRef Name="RPLastDate" /><FieldRef Name="RPTypes" /><FieldRef Name="RPStatus" /><FieldRef Name="RPRoles" /><FieldRef Name="RPActors" /><FieldRef Name="RPConfidential" /><FieldRef Name="RPCreatedBy" /><FieldRef Name="RPFreeText" /><FieldRef Name="RPShareUsers" /><FieldRef Name="RPShareUsers" /><FieldRef Name="RPAutomatic" /><FieldRef Name="RPStartDate" /><FieldRef Name="RPEndDate" /><FieldRef Name="RPFrecuency" /><FieldRef Name="RPRecipients" /><FieldRef Name="GFOpenAmountRAL" /><FieldRef Name="GFAmountCurrentYear" /><FieldRef Name="GFAmountNextYear" /><FieldRef Name="GFAmountToCancel" /><FieldRef Name="GFJustification" /><FieldRef Name="GFGLAccount" /><FieldRef Name="GFBudgetLine" /><FieldRef Name="WFSubject" /><FieldRef Name="GFPersonalFile" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Created" Ascending="FALSE">
+            </FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

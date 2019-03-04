@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="RSWorkflowMyReportsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="RSWorkflowMyReports\" Type="ElementManifest" />
+    <ProjectItemFile Source="RSWorkflowMyReports.webpart" Target="RSWorkflowMyReports\" Type="ElementFile" />
+    <ProjectItemFile Source="RSWorkflowMyReportsUserControl.ascx" Target="CONTROLTEMPLATES\ESMA.Paperless.Reports.v16\RSWorkflowMyReports\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ESMA.Paperless.Reports.v16.RSWorkflowMyReports" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

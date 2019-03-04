@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0270d948-5b5c-4f97-9e59-398c66607f44}"
+       Name="GFAmountNextYear"
+       DisplayName="Amount Next Year"
+       Type="Text"
+       Required="FALSE"
+       Group="RS Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="RSWorkflowViewSignedUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="RSWorkflowViewSigned\" Type="ElementManifest" />
+    <ProjectItemFile Source="RSWorkflowViewSigned.webpart" Target="RSWorkflowViewSigned\" Type="ElementFile" />
+    <ProjectItemFile Source="RSWorkflowViewSignedUserControl.ascx" Target="CONTROLTEMPLATES\ESMA.Paperless.Views\RSWorkflowViewSigned\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ESMA.Paperless.Views.RSWorkflowViewSigned" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

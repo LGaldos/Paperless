@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100D4D9998CC971470FA1905D91470396D3" Name="Log Record" Group="RS Content Types" Description="Log Record" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{41d2036b-433e-4ca8-8472-520343e00da6}" DisplayName="Workflow ID" Required="TRUE" Name="WFID" />
+      <FieldRef ID="{74cd0bf9-5202-4d98-8b4d-c92d410730b1}" DisplayName="Link" Required="TRUE" Name="WFLink" Format="Hyperlink" />
+      <FieldRef ID="{7973d9cb-3ffe-4a47-af1e-0d94283bc293}" DisplayName="Step Number" Required="TRUE" Name="StepNumber" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{eb1628cd-12af-470e-95e9-514c75529863}" DisplayName="Workflow Status" Required="TRUE" Name="WFStatus" Format="Dropdown" />
+      <FieldRef ID="{80874deb-b9b7-41df-8f09-e9dfafcaf5aa}" DisplayName="Assigned Person" Required="FALSE" Name="AssignedPerson" />
+      <FieldRef ID="{aa425cf1-7241-4add-babc-893aa273d1d7}" DisplayName="Action Taken" Required="TRUE" Name="ActionTaken" Format="Dropdown" />
+      <FieldRef ID="{d786daf6-2233-48dc-b8fe-b872081bdf6c}" DisplayName="Action Details" Required="TRUE" Name="ActionDetails" />
+      <FieldRef ID="{eee2030a-55e5-4768-ae99-7bfd0e0f4d24}" DisplayName="Computer Name" Required="TRUE" Name="ComputerName" />
+      <FieldRef ID="{855d6320-80cf-42ea-96c8-718a378d88d0}" DisplayName="Workflow Comment" Required="FALSE" Name="WorkflowComment" NumLines="6" Sortable="FALSE" />
+      <FieldRef ID="{5ff0584a-cf3d-4c28-8970-f41c43acb4f6}" DisplayName="Old Comment" Required="FALSE" Name="OldComment" />
+      <FieldRef ID="{16cbce84-7dcc-4676-89c2-39c53cbc954e}" DisplayName="Restricted Workflow" Required="TRUE" Name="ConfidentialWorkflow" Format="Dropdown" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

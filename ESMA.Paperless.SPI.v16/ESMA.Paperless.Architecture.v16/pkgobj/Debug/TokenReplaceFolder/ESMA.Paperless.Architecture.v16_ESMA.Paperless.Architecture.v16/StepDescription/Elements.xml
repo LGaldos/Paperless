@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Note"
+       ID="{e4854459-eb22-4d64-a3fb-22f2bfcd78df}"
+       Name="StepDescription"
+       DisplayName="Step Description"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Sealed ="FALSE"
+       Sortable="TRUE"
+       Filterable  ="TRUE"
+       AllowDeletion ="FALSE"
+       NumLines="30"
+       RichText="TRUE"
+       RestrictedMode="TRUE"
+       RichTextMode="FullHTML"
+       IsolateStyles="FALSE"
+       AppendOnly="FALSE"
+       UnlimitedLengthInDocumentLibrary="FALSE"
+      Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

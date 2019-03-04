@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100F6E06A3677474124A00884C0B6A23B33" Name="Template Definition" Group="RS Content Types" Description="Template Definition" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{6fde3063-efc6-44bb-b6ad-76e5a28118ce}" DisplayName="RP First Date" Required="TRUE" Name="RPFirstDate" />
+      <FieldRef ID="{1027e148-d29e-4dcb-aaab-d1cd9737ad28}" DisplayName="RP Last Date" Required="FALSE" Name="RPLastDate" />
+      <FieldRef ID="{71fccc77-2836-4943-ab77-059a3ec82af6}" DisplayName="RP Types" Required="FALSE" Name="RPTypes" />
+      <FieldRef ID="{b22b38fc-fe33-44b1-a357-202678d53669}" DisplayName="RP Status" Required="FALSE" Name="RPStatus" />
+      <FieldRef ID="{4e67d310-74d0-49cb-b1bc-3c488bdada75}" DisplayName="RP Roles" Required="FALSE" Name="RPRoles" />
+      <FieldRef ID="{50981785-e8b4-4ad3-adba-5af3245b8429}" DisplayName="RP Actors" Required="FALSE" Name="RPActors" />
+      <FieldRef ID="{4e39a006-6e1a-419e-808c-fe802896b73c}" DisplayName="RP Confidential" Required="FALSE" Name="RPConfidential" />
+      <FieldRef ID="{93d18f26-4268-4887-b26f-570453e6c484}" DisplayName="RP Created By" Required="FALSE" Name="RPCreatedBy" />
+      <FieldRef ID="{be97db83-0882-4b55-864a-e2c99cceae46}" DisplayName="RP Free Text" Required="FALSE" Name="RPFreeText" />
+      <FieldRef ID="{362d2339-3d62-403f-a5c4-6237b05a8b41}" DisplayName="RP Automatic" Name="RPAutomatic" />
+      <FieldRef ID="{9f0a058b-91a2-44d4-9284-611d2fd218aa}" DisplayName="RP Start Date" Required="FALSE" Name="RPStartDate" />
+      <FieldRef ID="{0e57d196-faa2-43da-ba46-e8bc63c175b2}" DisplayName="RP End Date" Required="FALSE" Name="RPEndDate" />
+      <FieldRef ID="{e1dfe628-7e3d-4933-b03f-dc7a1d5d1e5f}" DisplayName="RP Frequency" Required="FALSE" Name="RPFrecuency" Format="Dropdown" />
+      <FieldRef ID="{c95b46d0-6f2e-43b3-966f-62702565dfa1}" DisplayName="RP Recipients" Required="FALSE" Name="RPRecipients" />
+      <FieldRef ID="{0d9e34ce-0294-4d15-a49d-0023e99ce4c3}" DisplayName="RP Share Users" Required="FALSE" Name="RPShareUsers" />
+      <FieldRef ID="{0bb1f552-6000-4163-becd-dfe027386f8f}" DisplayName="RP Date Send" Required="FALSE" Name="RPDateSend" />
+      <FieldRef ID="{1d683270-533b-4865-b5ee-b52f431e11ab}" DisplayName="RP Author" Required="FALSE" Name="RPAuthor" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

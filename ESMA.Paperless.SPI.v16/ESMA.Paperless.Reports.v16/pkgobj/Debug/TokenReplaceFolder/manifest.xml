@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="37f47fd3-dd06-4476-856a-329b8ed2969c" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="ESMA.Paperless.Reports.v16.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ESMA.Paperless.Reports.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=18a60af8a64a6d12" Namespace="ESMA.Paperless.Reports.v16.RSWorkflowReports" TypeName="*" />
+        <SafeControl Assembly="ESMA.Paperless.Reports.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=18a60af8a64a6d12" Namespace="ESMA.Paperless.Reports.v16.RSWorkflowReportsMenu" TypeName="*" />
+        <SafeControl Assembly="ESMA.Paperless.Reports.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=18a60af8a64a6d12" Namespace="ESMA.Paperless.Reports.v16.RSWorkflowReportTemplates" TypeName="*" />
+        <SafeControl Assembly="ESMA.Paperless.Reports.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=18a60af8a64a6d12" Namespace="ESMA.Paperless.Reports.v16.RSWorkflowReportViewer" TypeName="*" />
+        <SafeControl Assembly="ESMA.Paperless.Reports.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=18a60af8a64a6d12" Namespace="ESMA.Paperless.Reports.v16.RSWorkflowMyReports" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Reports.v16\RSWorkflowReports\RSWorkflowReportsUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Reports.v16\RSWorkflowReportsMenu\RSWorkflowReportsMenuUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Reports.v16\RSWorkflowReportTemplates\RSWorkflowReportTemplatesUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Reports.v16\RSWorkflowReportViewer\RSWorkflowReportViewerUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\ESMA.Paperless.Reports.v16\RSWorkflowMyReports\RSWorkflowMyReportsUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ESMA.Paperless.Reports.v16_ESMA.Paperless.Reports.v16\Feature.xml" />
+    <FeatureManifest Location="ESMA.Paperless.Reports.v16_ESMA.Paperless.Reports.Timerjobs.v16\Feature.xml" />
+  </FeatureManifests>
+</Solution>

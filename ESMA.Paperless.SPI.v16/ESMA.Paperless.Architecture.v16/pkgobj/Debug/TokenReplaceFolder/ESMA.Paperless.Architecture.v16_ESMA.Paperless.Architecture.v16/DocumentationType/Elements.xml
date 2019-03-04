@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{054ac0ae-3314-4169-9f27-1fe1c3c93675}"
+       Name="DocumentationType"
+       DisplayName="Documentation Type"
+       StaticName="DocumentationType"
+       Type="Choice"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Format="Dropdown"
+       FillInChoice="FALSE"
+       ShowInNewForm="FALSE"
+       ShowInEditForm="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafep}">
+    <Default>(Empty)</Default>
+    <CHOICES>
+      <CHOICE>(Empty)</CHOICE>
+      <CHOICE>Main</CHOICE>
+      <CHOICE>ABAC</CHOICE>
+      <CHOICE>Supporting</CHOICE>  
+      <CHOICE>To be signed on paper</CHOICE>
+      <CHOICE>Paper signed docs</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

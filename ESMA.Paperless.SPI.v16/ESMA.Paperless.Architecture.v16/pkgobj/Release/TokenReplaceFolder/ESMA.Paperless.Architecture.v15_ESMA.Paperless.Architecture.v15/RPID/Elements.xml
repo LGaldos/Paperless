@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{35ebaff1-df7d-4b67-9ab9-161b3e347bcf}"
+       Name="RPID"
+       DisplayName="Report ID"
+       StaticName="RPID"
+       Type="Number"
+       Required="TRUE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Group="RS Columns"
+       SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}">
+  </Field>
+</Elements>

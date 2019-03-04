@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="RSWorkflowViewSigned" List="113" Url="_catalogs/wp">
+    <File Path="RSWorkflowViewSigned\RSWorkflowViewSigned.webpart" Url="ESMA.Paperless.Webparts.v15_RSWorkflowViewSigned.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Routing Slip System" />
+    </File>
+  </Module>
+</Elements>

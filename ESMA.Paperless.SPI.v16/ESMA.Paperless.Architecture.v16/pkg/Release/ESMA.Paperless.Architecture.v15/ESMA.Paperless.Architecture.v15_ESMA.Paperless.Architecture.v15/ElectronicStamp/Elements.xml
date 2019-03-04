@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Choice"
+       ID="{11d8f655-3354-40fd-a658-a11b6c441307}"
+       Name="ElectronicStamp"
+       StaticName="ElectronicStamp"
+       DisplayName="Electronic Stamp"
+       FillInChoice="FALSE"
+        Required="TRUE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Sealed ="FALSE"
+         Sortable="TRUE"
+         Filterable  ="TRUE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+    <Default>None</Default>
+    <CHOICES>
+      <CHOICE>None</CHOICE>
+      <CHOICE>SIGNED: Sent for payment</CHOICE>
+      <CHOICE>SIGNED: "Conforme aux faits"</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

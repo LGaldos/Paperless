@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Configuration Parameters" OnQuickLaunch="TRUE" TemplateType="904" Url="Lists/WFConfigParameters" Description="List to store all configuration parameters for administrator users."></ListInstance>
+</Elements>

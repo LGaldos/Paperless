@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100E263B0F030014026A0541093D7AC2FDF" Name="Workflow Record" Group="RS Content Types" Description="Workflow Record" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{41d2036b-433e-4ca8-8472-520343e00da6}" DisplayName="Workflow ID" Required="TRUE" Name="WFID" />
+      <FieldRef ID="{74cd0bf9-5202-4d98-8b4d-c92d410730b1}" DisplayName="Link" Required="TRUE" Name="WFLink" Format="Hyperlink" ShowInEditForm="FALSE" ShowInNewForm="FALSE" />
+      <FieldRef ID="{0bac0e69-193a-4e99-9837-ae8bbd11c19c}" DisplayName="Workflow Subject" Required="FALSE" Name="WFSubject" />
+      <FieldRef ID="{ef914ea7-ea38-425f-88ac-f99ad5021d11}" DisplayName="Amount" Required="FALSE" Name="Amount" />
+      <FieldRef ID="{eb1628cd-12af-470e-95e9-514c75529863}" DisplayName="Workflow Status" Required="TRUE" Name="WFStatus" Format="Dropdown" />
+      <FieldRef ID="{eb326f0e-de05-453d-a796-fbe958cb491b}" DisplayName="Workflow Type" Required="TRUE" Name="WFType" />
+      <FieldRef ID="{80874deb-b9b7-41df-8f09-e9dfafcaf5aa}" DisplayName="Assigned Person" Required="FALSE" Name="AssignedPerson" />
+      <FieldRef ID="{e2d02368-b311-484f-8fbf-fffe129a34d5}" DisplayName="Initiated By" Required="TRUE" Name="InitiatedBy" />
+      <FieldRef ID="{3cbca38c-b053-4210-914d-060e14312ff2}" DisplayName="Urgent" Name="Urgent" />
+      <FieldRef ID="{1a106892-8c1a-4c68-b216-c8f804dd266e}" DisplayName="Workflow Deadline" Required="FALSE" Name="WFDeadline" Format="DateOnly" />
+      <FieldRef ID="{16cbce84-7dcc-4676-89c2-39c53cbc954e}" DisplayName="Restricted Workflow" Required="TRUE" Name="ConfidentialWorkflow" Format="Dropdown" />
+      <FieldRef ID="{27f26b59-7f95-479a-953e-a2f52ef2ae25}" DisplayName="Rejection" Required="FALSE" Name="Rejection" Format="Image" ShowInEditForm="FALSE" ShowInNewForm="FALSE" />
+      <FieldRef ID="{6fae9b5f-5af3-42f3-9e81-a738ecd485cb}" DisplayName="Restricted" Required="FALSE" Name="ConfidentialCheck" Format="Image" ShowInEditForm="FALSE" ShowInNewForm="FALSE" />
+      <FieldRef ID="{f18b70ac-d6fc-4f5a-8c94-cc9bd3a1f8f9}" DisplayName="All Actors Sign" Required="FALSE" Name="AllActorsSign" NumLines="6" Sortable="FALSE" ShowInEditForm="FALSE" ShowInNewForm="FALSE" />
+      <FieldRef ID="{7973d9cb-3ffe-4a47-af1e-0d94283bc293}" DisplayName="Step Number" Required="TRUE" Name="StepNumber" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{d6f073ee-acf8-487c-b515-5dd7fbab6122}" DisplayName="Days To Close" Required="FALSE" Name="DaysToClose" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

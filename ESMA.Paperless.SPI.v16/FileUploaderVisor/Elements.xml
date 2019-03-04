@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="FileUploaderVisor" Url="Lists/RSFileUploader">
+    <File Path="FileUploaderVisor\ESMA.Paperless.FileUploaderVisor.v15.xap" Url="ESMA.Paperless.FileUploaderVisor.v15.xap" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

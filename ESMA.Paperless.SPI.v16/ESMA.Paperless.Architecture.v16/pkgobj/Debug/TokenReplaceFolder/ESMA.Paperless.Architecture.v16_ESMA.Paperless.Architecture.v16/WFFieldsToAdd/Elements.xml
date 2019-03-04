@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c79e227d-1c9c-4417-a2d0-13a4bd18d1b2}"
+       Name="WFFieldsToAdd"
+       DisplayName="Fields to Add"
+       StaticName="WFFieldsToAdd"
+       Type="LookupMulti"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Mult="TRUE"
+       List="Lists/WFGeneralFields"
+       ShowField="Title"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

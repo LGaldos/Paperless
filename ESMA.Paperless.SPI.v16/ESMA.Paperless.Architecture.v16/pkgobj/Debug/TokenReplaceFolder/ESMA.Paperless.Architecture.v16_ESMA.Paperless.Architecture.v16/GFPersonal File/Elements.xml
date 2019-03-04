@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{3f2d3c1f-9842-413e-afca-b5b35b61cf05}"
+       Name="GFPersonalFile"
+       DisplayName="Personal File"
+       Type="Boolean"
+       Required="FALSE"
+       Group="RS Columns">
+  </Field>
+</Elements>

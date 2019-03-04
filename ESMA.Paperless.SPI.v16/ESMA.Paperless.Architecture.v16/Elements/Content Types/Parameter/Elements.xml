@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01002CCABA8B61834C239D0DC41CF2DF9295" Name="Parameter" Group="RS Content Types" Description="Parameter" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{5778112a-f0b6-4a37-acb3-2d2bac19eb41}" DisplayName="Value" Required="TRUE" Name="Value1" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

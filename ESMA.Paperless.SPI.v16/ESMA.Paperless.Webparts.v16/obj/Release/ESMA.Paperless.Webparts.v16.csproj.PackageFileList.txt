@@ -1,0 +1,1 @@
+bin\Release\ESMA.Paperless.Webparts.v16.wsp

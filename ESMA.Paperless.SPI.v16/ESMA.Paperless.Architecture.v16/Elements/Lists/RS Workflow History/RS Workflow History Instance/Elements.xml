@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Workflow History" OnQuickLaunch="TRUE" TemplateType="903" Url="Lists/WFHistory" Description="List to store the current status of every workflow."></ListInstance>
+</Elements>

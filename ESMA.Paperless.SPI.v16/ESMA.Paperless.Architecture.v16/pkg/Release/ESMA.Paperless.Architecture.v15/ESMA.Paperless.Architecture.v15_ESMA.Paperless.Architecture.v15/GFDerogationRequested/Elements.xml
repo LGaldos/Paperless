@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{5e16699c-0ff2-44ac-94fa-aed291ff02f7}"
+       Name="GFDerogationRequested"
+       DisplayName="Derogation Requested"
+       StaticName="GFDerogationRequested"
+       Required="FALSE"
+       Type="Boolean"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+        Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+    <Default>0</Default>
+  </Field>
+</Elements>

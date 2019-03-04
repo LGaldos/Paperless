@@ -1,0 +1,5 @@
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Design.v15\bin\Release\ESMA.Paperless.Design.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Design.v15\bin\Release\ESMA.Paperless.Design.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Design.v15\obj\Release\ESMA.Paperless.Design.v15.csprojResolveAssemblyReference.cache
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Design.v15\obj\Release\ESMA.Paperless.Design.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Design.v15\obj\Release\ESMA.Paperless.Design.v15.pdb

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Description="Paperless Look &amp; Feel (v.2.0.0)" Id="11e161a9-aa43-4043-959e-7fc303b50a85" ReceiverAssembly="ESMA.Paperless.Design.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f3c784af13f945c" ReceiverClass="ESMA.Paperless.Design.v16.Features.ESMA.Paperless.Design.v16.ESMAPaperlessDesignEventReceiver" Scope="Web" Title="ESMA.Paperless.Design.v16 - Paperless Look &amp; Feel">
+  <ElementManifests>
+    <ElementManifest Location="MasterPage\Elements.xml" />
+    <ElementFile Location="MasterPage\RS.v16.master" />
+  </ElementManifests>
+</Feature>

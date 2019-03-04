@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{5174a88e-8e25-469b-bb1f-6cfa9e5819fa}"
+       Name="RPLink"
+       DisplayName="Link"
+       StaticName="RPLink"
+       Type="URL"
+       Required="TRUE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Format="Hyperlink"
+       ListItemMenu ="TRUE"
+       Group="RS Columns"
+       SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}">
+  </Field>
+</Elements>

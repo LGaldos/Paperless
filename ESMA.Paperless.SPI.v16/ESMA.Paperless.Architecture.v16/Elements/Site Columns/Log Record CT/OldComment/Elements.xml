@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{5ff0584a-cf3d-4c28-8970-f41c43acb4f6}"
+       Name="OldComment"
+       DisplayName="Old Comment"
+       StaticName="OldComment"
+       Type="Boolean"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+    <Default>0</Default>
+  </Field>
+</Elements>

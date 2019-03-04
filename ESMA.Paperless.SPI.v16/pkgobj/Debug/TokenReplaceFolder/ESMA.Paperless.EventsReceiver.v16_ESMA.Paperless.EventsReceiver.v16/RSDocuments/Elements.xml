@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RSDocuments" Url="Lists/RSDocumentsLibrary">
+    <File Path="RSDocuments\ESMA_Paperless_User_Manual_v1.1.0.pdf" Url="ESMA_Paperless_User_Manual_v1.1.0.pdf" Type="GhostableInLibrary"  />
+  </Module>
+</Elements>

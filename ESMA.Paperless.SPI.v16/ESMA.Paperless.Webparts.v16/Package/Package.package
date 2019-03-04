@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ac5e67b9-b289-450c-bc6a-b16a48c36fe6" solutionId="ac5e67b9-b289-450c-bc6a-b16a48c36fe6" resetWebServer="false" sharePointProductVersion="16.0" name="ESMA.Paperless.Webparts.v16" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ba1f91a7-2525-45f9-afd3-feef35dd22cd" />
+  </features>
+</package>

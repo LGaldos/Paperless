@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Description="Actions to be activated in Paperless: Permissions, Events Receiver,... (v.0.3.1.r2)" Id="bc8e6c08-85bd-4758-a367-76b234b3176e" ReceiverAssembly="ESMA.Paperless.EventsReceiver.v15, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b" ReceiverClass="ESMA.Paperless.SPI.v15.Features.ESMA.Paperless.EventsReceiver.v15.ESMAPaperlessEventsReceiverEventReceiver" Scope="Web" Title="ESMA.Paperless.EventsReceiver.v15 - Events Receivers">
+  <ElementManifests>
+    <ElementManifest Location="WorkflowConfigurationEventReceiver\Elements.xml" />
+    <ElementManifest Location="WorkflowStepDefinitionsEventReceiver\Elements.xml" />
+    <ElementManifest Location="WorkflowLibrayEventReceiver\Elements.xml" />
+    <ElementManifest Location="RSDocuments\Elements.xml" />
+    <ElementFile Location="RSDocuments\Paperless_UserManual.pdf" />
+    <ElementManifest Location="FileUploaderVisor\Elements.xml" />
+    <ElementFile Location="FileUploaderVisor\ESMA.Paperless.FileUploaderVisor.v15.xap" />
+  </ElementManifests>
+</Feature>

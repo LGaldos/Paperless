@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RS Workflow Step Definitions" 
+                OnQuickLaunch="TRUE" 
+                TemplateType="902" 
+                Url="Lists/WFStepDefinitions" 
+                Description="List to define the minimum general data for each step of every workflow type."></ListInstance>
+</Elements>

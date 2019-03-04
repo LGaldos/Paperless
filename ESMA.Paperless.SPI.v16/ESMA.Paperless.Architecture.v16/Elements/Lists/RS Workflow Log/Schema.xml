@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RS Workflow Log" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RSArchitecture-WorkflowLog" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>           
+      <ContentTypeRef ID="0x0100D4D9998CC971470FA1905D91470396D3">
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{41d2036b-433e-4ca8-8472-520343e00da6}" Name="WFID" DisplayName="Workflow ID" StaticName="WFID" Type="Number" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Percentage="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{74cd0bf9-5202-4d98-8b4d-c92d410730b1}" Name="WFLink" DisplayName="Link" StaticName="WFLink" Type="URL" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Hyperlink" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field Type="Number" ID="{7973d9cb-3ffe-4a47-af1e-0d94283bc293}" Name="StepNumber" StaticName="StepNumber" DisplayName="Step Number" Commas="FALSE" Min="1" Decimals="0" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Sealed="FALSE" Sortable="TRUE" Filterable="TRUE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{eb1628cd-12af-470e-95e9-514c75529863}" Name="WFStatus" DisplayName="Workflow Status" StaticName="WFStatus" Type="Choice" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+        <Default>Draft</Default>
+        <CHOICES>
+          <CHOICE>Closed</CHOICE>
+          <CHOICE>Deleted</CHOICE>
+          <CHOICE>Draft</CHOICE>
+          <CHOICE>In Progress</CHOICE>
+          <CHOICE>On Hold</CHOICE>
+          <CHOICE>Rejected</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{80874deb-b9b7-41df-8f09-e9dfafcaf5aa}" Name="AssignedPerson" DisplayName="Assigned Person" StaticName="AssignedPerson" Type="User" Required="FALSE" List="UserInfo" EnforceUniqueValues="FALSE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{aa425cf1-7241-4add-babc-893aa273d1d7}" Name="ActionTaken" DisplayName="Action Taken" StaticName="ActionTaken" Type="Choice" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+        <Default>Signed</Default>
+        <CHOICES>
+          <CHOICE>Actor re-assigned</CHOICE>
+          <CHOICE>Cancelled</CHOICE>
+          <CHOICE>Commented</CHOICE>
+          <CHOICE>Commented Closed</CHOICE>
+          <CHOICE>Deleted</CHOICE>
+          <CHOICE>Document removed</CHOICE>
+          <CHOICE>Document moved</CHOICE>
+          <CHOICE>Field changed</CHOICE>
+          <CHOICE>Finished</CHOICE>
+          <CHOICE>Launched</CHOICE>
+          <CHOICE>Document uploaded</CHOICE>
+          <CHOICE>New document version</CHOICE>
+          <CHOICE>Rejected</CHOICE>
+          <CHOICE>Restriction changed</CHOICE>
+          <CHOICE>Saved</CHOICE>
+          <CHOICE>Signed</CHOICE>
+          <CHOICE>Put On Hold</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{d786daf6-2233-48dc-b8fe-b872081bdf6c}" Name="ActionDetails" DisplayName="Action Details" StaticName="ActionDetails" Type="Text" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{eee2030a-55e5-4768-ae99-7bfd0e0f4d24}" Name="ComputerName" DisplayName="Computer Name" StaticName="ComputerName" Type="Text" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{855d6320-80cf-42ea-96c8-718a378d88d0}" Name="WorkflowComment" DisplayName="Workflow Comment" StaticName="WorkflowComment" Type="Note" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="FALSE" Sortable="FALSE" Group="RS Columns" RestrictedMode="TRUE" RichTextMode="Compatible" IsolateStyles="FALSE" AppendOnly="FALSE" UnlimitedLengthInDocumentLibrary="FALSE" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{5ff0584a-cf3d-4c28-8970-f41c43acb4f6}" Name="OldComment" DisplayName="Old Comment" StaticName="OldComment" Type="Boolean" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}"></Field>
+      <Field ID="{16cbce84-7dcc-4676-89c2-39c53cbc954e}" Name="ConfidentialWorkflow" DisplayName="Restricted Workflow" StaticName="ConfidentialWorkflow" Type="Choice" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="RS Columns" SourceID="{2ddd1d3e-5e1c-4b8b-991a-3897943e2576}">
+        <Default>Non Restricted</Default>
+        <CHOICES>
+          <CHOICE>Non Restricted</CHOICE>
+          <CHOICE>Restricted</CHOICE>
+        </CHOICES>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="WFID" />
+          <FieldRef Name="WFLink" />
+          <FieldRef Name="StepNumber" />
+          <FieldRef Name="WFStatus" />
+          <FieldRef Name="AssignedPerson" />
+          <FieldRef Name="ActionTaken" />
+          <FieldRef Name="ComputerName" />
+          <FieldRef Name="WorkflowComment" />
+          <FieldRef Name="OldComment" />                  
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>          
+          <FieldRef Name="WFID" />
+          <FieldRef Name="WFLink" />
+          <FieldRef Name="StepNumber" />
+          <FieldRef Name="WFStatus" />
+          <FieldRef Name="AssignedPerson" />
+          <FieldRef Name="ActionTaken" />
+          <FieldRef Name="ComputerName" />
+          <FieldRef Name="WorkflowComment" />
+          <FieldRef Name="OldComment" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Created" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

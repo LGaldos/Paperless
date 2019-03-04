@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="RSWorkflowInitiationUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="RSWorkflowInitiation\" Type="ElementManifest" />
+    <ProjectItemFile Source="RSWorkflowInitiation.webpart" Target="RSWorkflowInitiation\" Type="ElementFile" />
+    <ProjectItemFile Source="RSWorkflowInitiationUserControl.ascx" Target="CONTROLTEMPLATES\ESMA.Paperless.Webparts.v16\RSWorkflowInitiation\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="ESMA.Paperless.Webparts.v16.RSWorkflowInitiation" TypeName="*" IsSafe="true" IsSafeAgainstScript="true" />
+  </SafeControls>
+</ProjectItem>

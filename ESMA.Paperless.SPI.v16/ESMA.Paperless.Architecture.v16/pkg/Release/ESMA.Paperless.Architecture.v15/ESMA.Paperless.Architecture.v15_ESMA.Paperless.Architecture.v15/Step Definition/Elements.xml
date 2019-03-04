@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100CAB1AAF3F65C48BD8C1298B8B55BE775" Name="Step Definition" Group="RS Content Types" Description="Step Definition" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{7973d9cb-3ffe-4a47-af1e-0d94283bc293}" DisplayName="Step Number" Required="TRUE" Name="StepNumber" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{e4854459-eb22-4d64-a3fb-22f2bfcd78df}" DisplayName="Step Description" Required="FALSE" Name="StepDescription" NumLines="30" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{c1630744-ded4-4c64-aeed-adee90ffb663}" DisplayName="Workflow Group" Required="FALSE" Name="WFGroup" Filterable="TRUE" Sortable="FALSE" />
+      <FieldRef ID="{11d8f655-3354-40fd-a658-a11b6c441307}" DisplayName="Electronic Stamp" Required="TRUE" Name="ElectronicStamp" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{cac8af0b-f985-49a3-9d69-e6c7efee9ceb}" DisplayName="Send E-mail" Required="FALSE" Name="SendEmail" Filterable="TRUE" Sortable="TRUE" />
+      <FieldRef ID="{33953755-00d4-40af-8e42-ee338fc69bea}" DisplayName="E-mail Receiver Group" Required="FALSE" Name="EmailReceiverGroup" Filterable="TRUE" Sortable="FALSE" />
+      <FieldRef ID="{47843ca1-806e-4aa8-ab75-562acd1331d3}" DisplayName="Default Actor" Required="FALSE" Name="DefaultActor" Filterable="TRUE" Sortable="FALSE" />
+      <FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" DisplayName="$Resources:core,Title;" Name="LinkTitleNoMenu" ReadOnly="TRUE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

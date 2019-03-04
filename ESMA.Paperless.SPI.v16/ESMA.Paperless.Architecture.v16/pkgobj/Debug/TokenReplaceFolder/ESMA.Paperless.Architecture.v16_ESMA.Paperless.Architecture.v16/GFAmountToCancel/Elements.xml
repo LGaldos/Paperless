@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{14c02dac-f5e7-443f-a991-5872b81d05fa}"
+       Name="GFAmountToCancel"
+       DisplayName="Amount To Cancel"
+       Type="Text"
+       Required="FALSE"
+       Group="RS Columns">
+  </Field>
+</Elements>

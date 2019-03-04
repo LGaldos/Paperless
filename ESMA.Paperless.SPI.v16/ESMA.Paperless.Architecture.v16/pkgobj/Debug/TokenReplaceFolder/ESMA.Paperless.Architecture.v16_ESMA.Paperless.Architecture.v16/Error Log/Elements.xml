@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01000097596553B44588BF8FA8446D132D50" Name="Error Log" Group="RS Content Types" Description="Error Log" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{4de89985-29df-4c13-8cc6-f2e59ee0eae1}" DisplayName="Query Log" Required="FALSE" Name="RSQueryLog" NumLines="30" Sortable="FALSE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

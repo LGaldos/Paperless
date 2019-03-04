@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="RS Reports Templates" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RS Reports Templates" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x0100F6E06A3677474124A00884C0B6A23B33">
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>      
+      <Field ID="{6fde3063-efc6-44bb-b6ad-76e5a28118ce}" Name="RPFirstDate" DisplayName="RP First Date" StaticName="RPFirstDate" Type="Text" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{1027e148-d29e-4dcb-aaab-d1cd9737ad28}" Name="RPLastDate" DisplayName="RP Last Date" StaticName="RPLastDate" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{71fccc77-2836-4943-ab77-059a3ec82af6}" Name="RPTypes" DisplayName="RP Types" StaticName="RPTypes" Type="Note" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{b22b38fc-fe33-44b1-a357-202678d53669}" Name="RPStatus" DisplayName="RP Status" StaticName="RPStatus" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{4e67d310-74d0-49cb-b1bc-3c488bdada75}" Name="RPRoles" DisplayName="RP Roles" StaticName="RPRoles" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{50981785-e8b4-4ad3-adba-5af3245b8429}" Name="RPActors" DisplayName="RP Actors" StaticName="RPActors" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+    <Field ID="{4e39a006-6e1a-419e-808c-fe802896b73c}" Name="RPConfidential" DisplayName="RP Confidential" StaticName="RPConfidential" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{93d18f26-4268-4887-b26f-570453e6c484}" Name="RPCreatedBy" DisplayName="RP Created By" StaticName="RPCreatedBy" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{be97db83-0882-4b55-864a-e2c99cceae46}" Name="RPFreeText" DisplayName="RP Free Text" StaticName="RPFreeText" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+    <Field ID="{362d2339-3d62-403f-a5c4-6237b05a8b41}" Name="RPAutomatic" DisplayName="RP Automatic" StaticName="RPAutomatic" Type="Boolean" EnforceUniqueValues="FALSE" Indexed="FALSE" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"><Default>0</Default></Field>
+      <Field ID="{9f0a058b-91a2-44d4-9284-611d2fd218aa}" Name="RPStartDate" DisplayName="RP Start Date" StaticName="RPStartDate" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{0e57d196-faa2-43da-ba46-e8bc63c175b2}" Name="RPEndDate" DisplayName="RP End Date" StaticName="RPEndDate" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{e1dfe628-7e3d-4933-b03f-dc7a1d5d1e5f}" Name="RPFrecuency" DisplayName="RP Frequency" StaticName="RPFrecuency" Type="Choice" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"><Default>Daily</Default><CHOICES><CHOICE>Daily</CHOICE><CHOICE>Weekly</CHOICE><CHOICE>Monthly</CHOICE><CHOICE>Yearly</CHOICE></CHOICES></Field>
+      <Field ID="{c95b46d0-6f2e-43b3-966f-62702565dfa1}" Name="RPRecipients" DisplayName="RP Recipients" StaticName="RPRecipients" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{0d9e34ce-0294-4d15-a49d-0023e99ce4c3}" Name="RPShareUsers" DisplayName="RP Share Users" StaticName="RPShareUsers" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{0bb1f552-6000-4163-becd-dfe027386f8f}" Name="RPDateSend" DisplayName="RP Date Send" StaticName="RPDateSend" Type="Text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+      <Field ID="{1d683270-533b-4865-b5ee-b52f431e11ab}" Name="RPAuthor" DisplayName="RP Author" StaticName="RPAuthor" Type="User" List="UserInfo" Required="FALSE" EnforceUniqueValues="FALSE" ShowField="ImnName" UserSelectionMode="PeopleOnly" UserSelectionScope="0" Group="RS Columns" SourceID="{e50c2ded-b3cc-4603-9e10-c9f4bc180df6}"></Field>
+    </Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Title" />
+          <FieldRef Name="RPFirstDate" />
+          <FieldRef Name="RPLastDate" />
+          <FieldRef Name="RPTypes" />
+          <FieldRef Name="RPStatus" />
+          <FieldRef Name="RPRoles" />
+          <FieldRef Name="RPActors" />
+          <FieldRef Name="RPConfidential" />
+          <FieldRef Name="RPCreatedBy" />
+          <FieldRef Name="RPFreeText" />
+          <FieldRef Name="RPShareUsers"/>
+          <FieldRef Name="RPAutomatic" />
+          <FieldRef Name="RPStartDate" />
+          <FieldRef Name="RPEndDate" />
+          <FieldRef Name="RPFrecuency" />
+          <FieldRef Name="RPRecipients" />
+          <FieldRef Name="RPAuthor" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Created" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Title" />
+          <FieldRef Name="RPFirstDate" />
+          <FieldRef Name="RPLastDate" />
+          <FieldRef Name="RPTypes" />
+          <FieldRef Name="RPStatus" />
+          <FieldRef Name="RPRoles" />
+          <FieldRef Name="RPActors" />
+          <FieldRef Name="RPConfidential" />
+          <FieldRef Name="RPCreatedBy" />
+          <FieldRef Name="RPFreeText" />
+          <FieldRef Name="RPShareUsers"/>
+          <FieldRef Name="RPAutomatic" />
+          <FieldRef Name="RPStartDate" />
+          <FieldRef Name="RPEndDate" />
+          <FieldRef Name="RPFrecuency" />
+          <FieldRef Name="RPRecipients" />
+          <FieldRef Name="RPAuthor" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Created" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

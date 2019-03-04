@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="ESMA.Paperless.FileUploader.v16 - RS Workflow File Uploader" AlwaysForceInstall="TRUE" Description="Workflow File Uploader Web Part for Routing Slip Workflow System (v.1.0.0)" Id="367719d5-e5e7-470e-8042-0927dcfeb6be" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="RSWorkflowFileUploader\Elements.xml" />
+    <ElementFile Location="RSWorkflowFileUploader\RSWorkflowFileUploader.webpart" />
+    <ElementManifest Location="RSFileUploaderVisor\Elements.xml" />
+    <ElementFile Location="RSFileUploaderVisor\RSFileUploaderVisor.webpart" />
+    <ElementFile Location="RSFileUploaderVisor\ESMA.Paperless.FileUploaderVisor.v15.xap" />
+  </ElementManifests>
+</Feature>

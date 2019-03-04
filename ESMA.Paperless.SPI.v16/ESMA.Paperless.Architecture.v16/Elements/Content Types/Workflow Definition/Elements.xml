@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010054593AB156A8467A9B03078D01BF890A" Name="Workflow Definition" Group="RS Content Types" Description="Workflow Definition" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{dafec69a-1c5b-40e6-af5b-6cef4add652c}" DisplayName="Workflow Category" Required="TRUE" Name="WFCategory" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{1ce3da8c-90f8-4dbe-b8ab-f5de4ba6f348}" DisplayName="Workflow Order" Required="TRUE" Name="WFOrder" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{c1630744-ded4-4c64-aeed-adee90ffb663}" DisplayName="Workflow Group" Required="FALSE" Name="WFGroup" Filterable="TRUE" Sortable="FALSE" />
+      <FieldRef ID="{e435ee86-70a8-4d50-9253-d2a6737a31e2}" DisplayName="Workflow Library URL" Required="FALSE" Name="WFLibraryURL" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{f09ca57f-256d-4c4c-a12c-07b5b64fe75f}" DisplayName="Workflow Log URL" Required="FALSE" Name="WFLogURL" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" />
+      <FieldRef ID="{c79e227d-1c9c-4417-a2d0-13a4bd18d1b2}" DisplayName="Fields to Add" Required="FALSE" Name="WFFieldsToAdd" />
+      <FieldRef ID="{716b8716-67a0-48b3-9f70-52a87669deb0}" DisplayName="Workflow Enabled" Name="WFEnabled" />
+      <FieldRef ID="{054ac0ae-3314-4169-9f27-1fe1c3c93675}" DisplayName="Documentation Type" Required="FALSE" Name="DocumentationType" Format="Dropdown" ShowInEditForm="TRUE" ShowInNewForm="TRUE" />
+      <FieldRef ID="{16cbce84-7dcc-4676-89c2-39c53cbc954e}" DisplayName="Restricted Workflow" Required="FALSE" Name="ConfidentialWorkflow" Format="Dropdown" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

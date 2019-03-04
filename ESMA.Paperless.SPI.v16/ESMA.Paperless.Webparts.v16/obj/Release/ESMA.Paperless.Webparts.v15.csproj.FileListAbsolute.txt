@@ -1,0 +1,5 @@
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Webparts.v15\bin\Release\ESMA.Paperless.Webparts.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Webparts.v15\bin\Release\ESMA.Paperless.Webparts.v15.pdb
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Webparts.v15\obj\Release\ESMA.Paperless.Webparts.v15.csprojResolveAssemblyReference.cache
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Webparts.v15\obj\Release\ESMA.Paperless.Webparts.v15.dll
+E:\ESMA\00 Developments\ESMA.Paperless.SPI.v15\ESMA.Paperless.Webparts.v15\obj\Release\ESMA.Paperless.Webparts.v15.pdb

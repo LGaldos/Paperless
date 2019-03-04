@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57F9242C-729B-417A-9B3A-2C9B3C53D3A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESMA.Paperless.EventsReceiver.v16</RootNamespace>
+    <AssemblyName>ESMA.Paperless.EventsReceiver.v16</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ActiveDeploymentConfiguration>No Activation</ActiveDeploymentConfiguration>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventsReceiver\classLibraryEventReceiver.cs" />
+    <Compile Include="EventsReceiver\DisabledItemEventsScope.cs" />
+    <Compile Include="EventsReceiver\WorkflowConfigurationEventReceiver\WorkflowConfigurationEventReceiver.cs" />
+    <Compile Include="EventsReceiver\WorkflowLibrayEventReceiver\WorkflowLibrayEventReceiver.cs" />
+    <Compile Include="EventsReceiver\WorkflowStepDefinitionsEventReceiver\WorkflowStepDefinitionsEventReceiver.cs" />
+    <Compile Include="Features\ESMA.Paperless.EventsReceiver.v16\ESMA.Paperless.EventsReceiver.v16.EventReceiver.cs">
+      <DependentUpon>ESMA.Paperless.EventsReceiver.v16.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureActivation\PermissionsManagement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FeatureActivation\General.cs" />
+    <Compile Include="FeatureActivation\SharePointSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EventsReceiver\WorkflowConfigurationEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{017c4d90-9650-45c2-bd9a-23af10a5d22a}</SharePointProjectItemId>
+    </None>
+    <None Include="EventsReceiver\WorkflowLibrayEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8b7f507b-3c46-4f4a-b952-d9095cfcb3e9}</SharePointProjectItemId>
+    </None>
+    <None Include="EventsReceiver\WorkflowStepDefinitionsEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6f09548c-0b4b-4b98-aeae-c14d0164023b}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\ESMA.Paperless.EventsReceiver.v16\ESMA.Paperless.EventsReceiver.v16.feature">
+      <FeatureId>{da7e38e5-972c-42c5-890f-98cd3a4820cd}</FeatureId>
+    </None>
+    <None Include="FileUploaderVisor\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{677c8e13-9fad-466c-8aa7-d86dd3bfebc6}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{2c945868-ba12-477c-ab33-dfda72c8aa81}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="RSDocuments\ESMA_Paperless_User_Manual_v1.1.0.pdf" />
+    <None Include="RSDocuments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c2623f7-bb71-4ef7-b37c-d8ba336e26b2}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="EventsReceiver\WorkflowConfigurationEventReceiver\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="EventsReceiver\WorkflowLibrayEventReceiver\Elements.xml" />
+    <Content Include="EventsReceiver\WorkflowStepDefinitionsEventReceiver\Elements.xml" />
+    <Content Include="Features\ESMA.Paperless.EventsReceiver.v16\ESMA.Paperless.EventsReceiver.v16.Template.xml">
+      <DependentUpon>ESMA.Paperless.EventsReceiver.v16.feature</DependentUpon>
+    </Content>
+    <Content Include="FileUploaderVisor\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="FileUploaderVisor\ESMA.Paperless.FileUploaderVisor.v15.xap" />
+    <Content Include="RSDocuments\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

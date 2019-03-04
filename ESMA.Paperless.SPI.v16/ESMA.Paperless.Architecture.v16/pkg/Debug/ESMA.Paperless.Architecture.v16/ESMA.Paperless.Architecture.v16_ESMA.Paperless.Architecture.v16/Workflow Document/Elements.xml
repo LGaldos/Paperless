@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100532343FE24C24CA6977E2B2880288D96" Name="Workflow Document" Group="RS Content Types" Description="Workflow Document" Inherits="FALSE" Version="0" DocumentTemplate="100" Hidden="TRUE">
+    <FieldRefs>
+      <FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" DisplayName="Content Type" Name="ContentType" ShowInNewForm="FALSE" ShowInEditForm="FALSE" Hidden="TRUE"/>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" DisplayName="Title" Required="FALSE" Name="Title" ShowInNewForm="FALSE" ShowInEditForm="FALSE"  Hidden="TRUE"/>
+      <FieldRef ID="{41d2036b-433e-4ca8-8472-520343e00da6}" DisplayName="Workflow ID" Required="TRUE" Name="WFID" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+      <FieldRef ID="{054ac0ae-3314-4169-9f27-1fe1c3c93675}" DisplayName="Documentation Type" Required="FALSE" Name="DocumentationType" Format="Dropdown" ShowInNewForm="TRUE" ShowInEditForm="TRUE"/>
+      <FieldRef ID="{7973d9cb-3ffe-4a47-af1e-0d94283bc293}" DisplayName="Step Number" Required="TRUE" Name="StepNumber" Filterable="TRUE" Sealed="FALSE" Sortable="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+      <FieldRef ID="{1a7c7735-6cc0-4b6b-a62b-174f812074b3}" DisplayName="Document Preview" Required="FALSE" Name="WFDocumentPreview" Format="Image" ShowInNewForm="FALSE" ShowInEditForm="FALSE"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

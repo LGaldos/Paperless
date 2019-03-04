@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d279a711-efcb-439a-8fed-c088fb1ede83}"
+       Name="LinkToWorkflow"
+       DisplayName="Link To Workflow"
+       StaticName="LinkToWorkflow"
+       Type="Note"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Description="Link to workflow field"
+       Indexed="FALSE"
+       NumLines="6"
+       RichText="FALSE"
+       Sortable="FALSE"
+       Group="RS Columns">
+  </Field>
+</Elements>

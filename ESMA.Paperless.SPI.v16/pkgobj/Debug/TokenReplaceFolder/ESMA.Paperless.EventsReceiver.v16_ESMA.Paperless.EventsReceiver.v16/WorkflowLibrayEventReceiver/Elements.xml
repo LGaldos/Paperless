@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="906">
+      <Receiver>
+        <Name>WorkflowLibrayEventReceiverItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>ESMA.Paperless.EventsReceiver.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v16.EventsReceiver.WorkflowLibrayEventReceiver.WorkflowLibrayEventReceiver</Class>
+        <SequenceNumber>1000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>WorkflowLibrayEventReceiverItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>ESMA.Paperless.EventsReceiver.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v16.EventsReceiver.WorkflowLibrayEventReceiver.WorkflowLibrayEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>WorkflowLibrayEventReceiverItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>ESMA.Paperless.EventsReceiver.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v16.EventsReceiver.WorkflowLibrayEventReceiver.WorkflowLibrayEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>WorkflowLibrayEventReceiverItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>ESMA.Paperless.EventsReceiver.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b</Assembly>
+        <Class>ESMA.Paperless.EventsReceiver.v16.EventsReceiver.WorkflowLibrayEventReceiver.WorkflowLibrayEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  <Receiver>
+<Name>WorkflowLibrayEventReceiverItemUpdated</Name>
+<Type>ItemUpdated</Type>
+<Assembly>ESMA.Paperless.EventsReceiver.v16, Version=1.0.0.0, Culture=neutral, PublicKeyToken=89f95f9f42ab417b</Assembly>
+<Class>ESMA.Paperless.EventsReceiver.v16.EventsReceiver.WorkflowLibrayEventReceiver.WorkflowLibrayEventReceiver</Class>
+<SequenceNumber>10000</SequenceNumber>
+</Receiver>
+</Receivers>
+</Elements>

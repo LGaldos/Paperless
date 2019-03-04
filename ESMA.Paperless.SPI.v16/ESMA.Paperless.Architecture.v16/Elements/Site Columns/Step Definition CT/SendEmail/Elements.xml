@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Type="Boolean"
+      ID="{cac8af0b-f985-49a3-9d69-e6c7efee9ceb}"
+      Name="SendEmail"
+      StaticName="SendEmail"
+      DisplayName="Send E-mail"
+      EnforceUniqueValues="FALSE"
+      Indexed="FALSE"
+      Sortable= "TRUE"
+      Filterable ="TRUE"
+      Group="RS Columns"
+      SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+    <Default>0</Default>
+  </Field>
+</Elements>

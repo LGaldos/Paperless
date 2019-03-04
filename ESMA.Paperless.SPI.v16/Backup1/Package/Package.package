@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f9086373-4feb-4662-963a-ea11bef1ddc0" solutionId="f9086373-4feb-4662-963a-ea11bef1ddc0" resetWebServer="false" sharePointProductVersion="15.0" name="ESMA.Paperless.FileUploader.v15" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="314313a7-e68c-4373-9f41-f920f5c71bf1" />
+  </features>
+</package>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e21e43b8-795e-4447-b1ce-f4e6f7927b13}"
+       Name="GFStaffName"
+       DisplayName="Staff Name"
+       StaticName="GFStaffName"
+       Type="User"
+       Required="FALSE"
+       List="UserInfo"
+       EnforceUniqueValues="FALSE"
+       ShowField="ImnName"
+       UserSelectionMode="PeopleAndGroups"
+       UserSelectionScope="0"
+       Group="RS Columns"
+       SourceID="{ee2f2c97-4d39-457c-8f3f-799a825aafed}">
+  </Field>
+</Elements>

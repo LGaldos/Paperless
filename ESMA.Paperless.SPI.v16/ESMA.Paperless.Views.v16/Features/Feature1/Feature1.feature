@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" title="ESMA.Paperless.Views Feature1" dslVersion="1.0.0.0" Id="26b2116b-a118-4255-b6ea-fb024a9e0a85" featureId="26b2116b-a118-4255-b6ea-fb024a9e0a85" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+</feature>
